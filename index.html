@@ -65,9 +65,9 @@
     };
 
     let overlayMaps = {
-      "Veröffentlicht": veroeffentlicht,
-      "Gremienphase": gremienphase,
-      "Entwurfsphase": entwurfsphase
+      "<span style='color: rgb(0,104,55);'>&#x25CF;</span> Veröffentlicht": veroeffentlicht,
+      "<span style='color: rgb(249,147,28);'>&#x25CF;</span> Gremienphase": gremienphase,
+      "<span style='color: rgb(42,168,226);'>&#x25CF;</span> Entwurfsphase": entwurfsphase
     };
 
     let layerControl = L.control.layers(baseMaps, overlayMaps);
@@ -77,7 +77,9 @@
       crs: L.CRS.Simple,
       minZoom: 0,
       layers: [image, veroeffentlicht, gremienphase, entwurfsphase],
-      maxBounds: bounds
+      maxBounds: bounds,
+      doubleClickZoom: false,
+      scrollWheelZoom: false
     });
 
     image.addTo(map);
