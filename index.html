@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>ORCA-Karte NRW</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+  <style type="text/css"></style>
+  <script src="https://kit.fontawesome.com/5bbe73b57d.js" crossorigin="anonymous"></script>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .leaflet-container {
+      height: 526px;
+      width: 524px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="leaflet-container" id="map"></div>
+
+  <script>
+    // Punkte definieren
+    const blauerPunkt = {
+      color: 'rgb(42,168,226)',
+      fillColor: 'rgb(42,168,226)',
+      fillOpacity: 1,
+      radius: 3
+    };
+
+    const orangerPunkt = {
+      color: 'rgb(249,147,28)',
+      fillColor: 'rgb(249,147,28)',
+      fillOpacity: 1,
+      radius: 3
+    };
+
+    const gruenerPunkt = {
+      color: 'rgb(0,104,55)',
+      fillColor: 'rgb(0,104,55)',
+      fillOpacity: 1,
+      radius: 3
+    }
+
+    // Layer groups definieren
+    let veroeffentlicht = L.layerGroup();
+    let gremienphase = L.layerGroup();
+    let entwurfsphase = L.layerGroup();
+
+    // Overlays definieren
+    let bounds = [[0, 0], [526, 524]];
+    let image = L.imageOverlay('img/orca-nrw-map.svg', bounds);
+
+    var baseMaps = {
+      // Leer gelassen, weil es keine anderen base maps gibt
+    };
+
+    let overlayMaps = {
+      "Veröffentlicht": veroeffentlicht,
+      "Gremienphase": gremienphase,
+      "Entwurfsphase": entwurfsphase
+    };
+
+    let layerControl = L.control.layers(baseMaps, overlayMaps);
+
+    // Karte erstellen
+    let map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: 0,
+      layers: [image, veroeffentlicht, gremienphase, entwurfsphase]
+    });
+
+    image.addTo(map);
+    layerControl.addTo(map);
+    map.fitBounds(bounds);
+
+    // Standorte definieren
+    let bielefeldUni = L.circle([400, 385], blauerPunkt);
+    bielefeldUni.addTo(map);
+    bielefeldUni.addTo(entwurfsphase);
+    bielefeldUni.bindPopup("I am a circle.");
+    bielefeldUni.bindTooltip("Universität Bielefeld");
+
+    let bielefeldFH = L.circle([400, 395], gruenerPunkt);
+    bielefeldFH.addTo(map);
+    bielefeldFH.addTo(veroeffentlicht);
+    bielefeldFH.bindPopup("I am a circle.");
+    bielefeldFH.bindTooltip("Fachhochschule Bielefeld");
+
+    let bochumRuhrUni = L.circle([270, 205], gruenerPunkt);
+    bochumRuhrUni.addTo(map);
+    bochumRuhrUni.addTo(veroeffentlicht);
+    bochumRuhrUni.bindPopup("I am a circle.");
+    bochumRuhrUni.bindTooltip("Ruhr-Universität Bochum");
+
+    let bochumHSGesundheit = L.circle([270, 195], gruenerPunkt);
+    bochumHSGesundheit.addTo(map);
+    bochumHSGesundheit.addTo(veroeffentlicht);
+    bochumHSGesundheit.bindPopup("I am a circle.");
+    bochumHSGesundheit.bindTooltip("Hochschule für Gesundheit Bochum");
+
+    let bonnRheinSiegHS = L.circle([115, 195], gruenerPunkt);
+    bonnRheinSiegHS.addTo(map);
+    bonnRheinSiegHS.addTo(veroeffentlicht);
+    bonnRheinSiegHS.bindPopup("I am a circle.");
+    bonnRheinSiegHS.bindTooltip("Hochschule Bonn-Rhein-Sieg");
+
+    let dortmundFH = L.circle([285, 235], gruenerPunkt);
+    dortmundFH.addTo(map);
+    dortmundFH.addTo(veroeffentlicht);
+    dortmundFH.bindPopup("I am a circle.");
+    dortmundFH.bindTooltip("Fachhochschule Dortmund");
+
+    let duesseldorfHHUni = L.circle([215, 139], gruenerPunkt);
+    duesseldorfHHUni.addTo(map);
+    duesseldorfHHUni.addTo(veroeffentlicht);
+    duesseldorfHHUni.bindPopup("I am a circle.");
+    duesseldorfHHUni.bindTooltip("Heinrich-Heine-Universität Düsseldorf");
+
+    let duisburgEssenUni = L.circle([265, 132], gruenerPunkt);
+    duisburgEssenUni.addTo(map);
+    duisburgEssenUni.addTo(veroeffentlicht);
+    duisburgEssenUni.bindPopup("I am a circle.");
+    duisburgEssenUni.bindTooltip("Universität Duisburg-Essen");
+
+    let koelnTU = L.circle([145, 170], gruenerPunkt);
+    koelnTU.addTo(map);
+    koelnTU.addTo(veroeffentlicht);
+    koelnTU.bindPopup("I am a circle.");
+    koelnTU.bindTooltip("Technische Universität Köln");
+
+    let koelnSportHS = L.circle([145, 160], gruenerPunkt);
+    koelnSportHS.addTo(map);
+    koelnSportHS.addTo(veroeffentlicht);
+    koelnSportHS.bindPopup("I am a circle.");
+    koelnSportHS.bindTooltip("Deutsche Sporthochschule Köln");
+
+    let niederrheinHS = L.circle([243, 107], gruenerPunkt);
+    niederrheinHS.addTo(map);
+    niederrheinHS.addTo(veroeffentlicht);
+    niederrheinHS.bindPopup("I am a circle.");
+    niederrheinHS.bindTooltip("Hochschule Niederrhein");
+
+    let siegenUni = L.circle([145, 321], orangerPunkt);
+    siegenUni.addTo(map);
+    siegenUni.addTo(gremienphase);
+    siegenUni.bindPopup("I am a circle.");
+    siegenUni.bindTooltip("Universität Siegen");
+
+    // Kommentar entfernen, um Koordinaten mit Klick anzuzeigen
+    // function onMapClick(e) {
+    //   alert("You clicked the map at " + e.latlng);
+    // }
+
+    // map.on('click', onMapClick);
+
+  </script>
+</body>
+
+</html>
