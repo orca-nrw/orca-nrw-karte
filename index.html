@@ -76,7 +76,8 @@
     let map = L.map('map', {
       crs: L.CRS.Simple,
       minZoom: 0,
-      layers: [image, veroeffentlicht, gremienphase, entwurfsphase]
+      layers: [image, veroeffentlicht, gremienphase, entwurfsphase],
+      maxBounds: bounds
     });
 
     image.addTo(map);
