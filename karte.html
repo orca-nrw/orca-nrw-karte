@@ -4,11 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>ORCA-Karte NRW</title>
+  <title>OER Policies an NRW Hochschulen</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
   <link rel="stylesheet" href="css/style.css">
   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-  <script src="https://kit.fontawesome.com/5bbe73b57d.js" crossorigin="anonymous"></script>
   <style type="text/css"></style>
 </head>
 
@@ -60,7 +59,7 @@
     };
 
     let layerControl = L.control.layers(baseMaps, overlayMaps);
-    let attribution = L.control.attribution({prefix: false}).addAttribution("© Marko Wenzel");
+    let attribution = L.control.attribution({prefix: false}).addAttribution("by Marko Wenzel");
 
     // Karte erstellen
     let map = L.map('map', {
@@ -141,7 +140,7 @@
     let niederrheinHS = L.circle([243, 107], gruenerPunkt);
     niederrheinHS.addTo(map);
     niederrheinHS.addTo(veroeffentlicht);
-    niederrheinHS.bindPopup("I am a circle.");
+    niederrheinHS.bindPopup("<a href='https://google.com'>I am a circle.</a>");
     niederrheinHS.bindTooltip("Hochschule Niederrhein");
 
     let siegenUni = L.circle([145, 321], orangerPunkt);
