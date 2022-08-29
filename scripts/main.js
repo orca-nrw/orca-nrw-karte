@@ -91,11 +91,12 @@ for (let standort of standorte) {
   // Variablen & Konstanten definieren
   let phase;
   let marker;
-  const kontaktperson = (standort.kontaktperson) ? `<br>${standort.kontaktperson}` : "<br>Keine Netzwerkstelle";
-  const mail = (standort.mail) ? `<br><a href='mailto:${standort.mail}'>${standort.mail}</a>` : "";
-  const website = (standort.website) ? `<br><a href='${standort.website}'>${standort.website}</a>` : "";
+  let listePersonen = "";
+  let personen = "";
+  const standortUeberschrift = (standort.website) ? `<b><a href='${standort.website}' target='_blank'>${standort.name}</a></b>` : `<b>${standort.name}</b>`
   const veroeffentlichung = (standort.policyVeroeffentlichung) ? `<br>Veröffentlicht am ${standort.policyVeroeffentlichung}` : "<br>Nicht veröffentlicht";
-  const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}'>${standort.policyLink}</a>` : "";
+  const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Zur Policy</a>` : "";
+  const policy = (standort.policyLink) ? "<hr><b>OER-Policy</b>" + veroeffentlichung + link : "";
 
   // Phase und marker klären
   if (standort.phase == 0) {
@@ -112,8 +113,19 @@ for (let standort of standorte) {
     marker = gruenerPunkt;
   }
 
+  // Kontaktpersonen/Mails
+  if (standort.kontaktpersonen.length >= 1) {
+    for (let person of standort.kontaktpersonen) {
+      let name = (person.website) ? `<br><a href='${person.website}' target='_blank'>${person.name}</a>` : `<br>${person.name}`;
+      let abteilung = (person.abteilung) ? `, ${person.abteilung}` : "";
+      let mail = (person.mail) ? ` <a href='mailto:${person.mail}'><i class="far fa-envelope"></i></a>` : "";
+      listePersonen = listePersonen + name + abteilung + mail;
+    }
+    personen = (standort.kontaktpersonen.length > 1) ? "<hr><b>ORCA-Netzwerkstellen</b>" + listePersonen : "<hr><b>ORCA-Netzwerkstelle</b>" + listePersonen;
+  }
+
   // Popup definieren
-  let popup = L.responsivePopup().setContent(`<b>${standort.name}</b><hr><b>ORCA-Netzwerkstelle</b>${kontaktperson}${mail}${website}<hr><b>OER-Policy</b>${veroeffentlichung}${link}`);
+  let popup = L.responsivePopup().setContent(`${standortUeberschrift}${personen}${policy}`);
 
   // Alles zusammenführen und zur Karte hinzufügen
   standortObjekt[standort.id] = L.circle(standort.koordinaten, marker);
