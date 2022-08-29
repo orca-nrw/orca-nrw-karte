@@ -1,0 +1,131 @@
+// Punkte definieren
+const blauerPunkt = {
+  color: 'rgb(42,168,226)',
+  fillColor: 'rgb(42,168,226)',
+  fillOpacity: 1,
+  radius: 3
+};
+
+const orangerPunkt = {
+  color: 'rgb(249,147,28)',
+  fillColor: 'rgb(249,147,28)',
+  fillOpacity: 1,
+  radius: 3
+};
+
+const gruenerPunkt = {
+  color: 'rgb(0,104,55)',
+  fillColor: 'rgb(0,104,55)',
+  fillOpacity: 1,
+  radius: 3
+}
+
+const grauerPunkt = {
+  color: 'rgb(128,128,128)',
+  fillColor: 'rgb(128,128,128))',
+  fillOpacity: 1,
+  radius: 1.5
+}
+
+// Layer groups definieren
+let veroeffentlicht = L.layerGroup();
+let gremienphase = L.layerGroup();
+let entwurfsphase = L.layerGroup();
+let hochschulstandort = L.layerGroup();
+
+// Overlays definieren
+let bounds = [[0, 0], [526, 524]];
+let mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
+let mapNoBorders = L.imageOverlay('img/orca-nrw-map_no-borders.svg', bounds);
+
+let baseMaps = {
+  "Mit Stadtgrenzen": mapBorders,
+  "Ohne Stadtgrenzen": mapNoBorders
+};
+
+let overlayMaps = {
+  "<span style='color: rgb(0,104,55);'>&#x25CF;</span> Veröffentlicht": veroeffentlicht,
+  "<span style='color: rgb(249,147,28);'>&#x25CF;</span> Gremienphase": gremienphase,
+  "<span style='color: rgb(42,168,226);'>&#x25CF;</span> Entwurfsphase": entwurfsphase,
+  "<span style='color: rgb(128,128,128);'>&#x25CF;</span> Hochschulstandort": hochschulstandort
+};
+
+let layerControl = L.control.layers(baseMaps, overlayMaps);
+let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel");
+
+// Karte erstellen
+export let map = L.map('map', {
+  crs: L.CRS.Simple,
+  minZoom: 0,
+  layers: [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort],
+  maxBounds: bounds,
+  doubleClickZoom: false,
+  scrollWheelZoom: false
+});
+
+layerControl.addTo(map);
+map.fitBounds(bounds);
+map.attributionControl.setPrefix(false);
+attribution.addTo(map);
+
+let fetchDataStandorte = await fetch("./db/standorte.json");
+let standorte = await fetchDataStandorte.json();
+
+// Legende hinzufügen
+let legende = L.control({position: "bottomright"});
+
+legende.onAdd = function (map) {
+  let div = L.DomUtil.create("div", "legende");
+  div.innerHTML += "<span style='color: rgb(0,104,55);'>&#x25CF;</span> <span>Veröffentlicht</span>";
+  div.innerHTML += "<br><span style='color: rgb(249,147,28);'>&#x25CF;</span> <span> Gremienphase</span>";
+  div.innerHTML += "<br><span style='color: rgb(42,168,226);'>&#x25CF;</span> <span> Entwurfsphase</span>";
+  div.innerHTML += "<br><span style='color: rgb(128,128,128);'>&#x25CF;</span> <span> Hochschulstandort</span>";
+  return div;
+};
+
+legende.addTo(map);
+
+// Standorte definieren
+let standortObjekt = [];
+for (let standort of standorte) {
+  // Variablen & Konstanten definieren
+  let phase;
+  let marker;
+  const kontaktperson = (standort.kontaktperson) ? `<br>${standort.kontaktperson}` : "<br>Keine Netzwerkstelle";
+  const mail = (standort.mail) ? `<br><a href='mailto:${standort.mail}'>${standort.mail}</a>` : "";
+  const website = (standort.website) ? `<br><a href='${standort.website}'>${standort.website}</a>` : "";
+  const veroeffentlichung = (standort.policyVeroeffentlichung) ? `<br>Veröffentlicht am ${standort.policyVeroeffentlichung}` : "<br>Nicht veröffentlicht";
+  const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}'>${standort.policyLink}</a>` : "";
+
+  // Phase und marker klären
+  if (standort.phase == 0) {
+    phase = hochschulstandort;
+    marker = grauerPunkt;
+  } else if (standort.phase == 1) {
+    phase = entwurfsphase;
+    marker = blauerPunkt;
+  } else if (standort.phase == 2) {
+    phase = gremienphase;
+    marker = orangerPunkt;
+  } else if (standort.phase == 3) {
+    phase = veroeffentlicht;
+    marker = gruenerPunkt;
+  }
+
+  // Popup definieren
+  let popup = L.responsivePopup().setContent(`<b>${standort.name}</b><hr><b>ORCA-Netzwerkstelle</b>${kontaktperson}${mail}${website}<hr><b>OER-Policy</b>${veroeffentlichung}${link}`);
+
+  // Alles zusammenführen und zur Karte hinzufügen
+  standortObjekt[standort.id] = L.circle(standort.koordinaten, marker);
+  standortObjekt[standort.id].addTo(map)
+  standortObjekt[standort.id].addTo(phase);
+  standortObjekt[standort.id].bindPopup(popup);
+  standortObjekt[standort.id].bindTooltip(standort.name);
+}
+
+// Kommentar entfernen, um Koordinaten mit Klick anzuzeigen
+// function onMapClick(e) {
+//   alert("You clicked the map at " + e.latlng);
+// }
+
+// map.on('click', onMapClick);
