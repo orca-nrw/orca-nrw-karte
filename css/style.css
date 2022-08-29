@@ -12,9 +12,32 @@ h1 {
   text-align: center;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
 .leaflet-container {
   height: 526px;
   width: 524px;
   max-width: 100%;
   max-height: 100%;
+}
+
+.leaflet-popup-content {
+  margin: 13px 23px 13px 13px;
+}
+
+.legende {
+  padding: 6px 8px;
+  background: white;
+  background: rgba(255, 255, 255);
+  line-height: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  border-radius: 4px;
+}
+
+.legende span {
+  position: relative;
 }
