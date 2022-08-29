@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  padding-bottom: 0 !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.leaflet-container {
+  height: 526px;
+  width: 524px;
+  max-width: 100%;
+  max-height: 100%;
+}
