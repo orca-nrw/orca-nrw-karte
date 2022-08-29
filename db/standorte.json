@@ -1,0 +1,134 @@
+[
+  {
+    "id": "bielefeldUni",
+    "name": "Universität Bielefeld",
+    "koordinaten": [ 400, 385 ],
+    "phase": 1,
+    "kontaktperson": "Frank Homp",
+    "mail": "frank.homp@uni-bielefeld.de",
+    "website": "https://uni-bielefeld.de",
+    "policyVeroeffentlichung": "01.01.1970",
+    "policyLink": "https://uni-bielefeld.de/orca"
+  },
+  {
+    "id": "bielefeldFH",
+    "name": "Fachhochschule Bielefeld",
+    "koordinaten": [ 400, 395 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "bochumRuhrUni",
+    "name": "Ruhr-Universität Bochum",
+    "koordinaten": [ 270, 205 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "bochumHSGesundheit",
+    "name": "Hochschule für Gesundheit Bochum",
+    "koordinaten": [ 270, 195 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "bonnRheinSiegHS",
+    "name": "Hochschule Bonn-Rhein-Sieg",
+    "koordinaten": [ 115, 195 ],
+    "phase": 1,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "dortmundFH",
+    "name": "Fachhochschule Dortmund",
+    "koordinaten": [ 285, 235 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "duesseldorfHHUni",
+    "name": "Heinrich-Heine-Universität Düsseldorf",
+    "koordinaten": [ 215, 139 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "duisburgEssenUni",
+    "name": "Universität Duisburg-Essen",
+    "koordinaten": [ 265, 132 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "koelnTU",
+    "name": "Technische Universität Köln",
+    "koordinaten": [ 145, 170 ],
+    "phase": 1,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "koelnSportHS",
+    "name": "Deutsche Sporthochschule Köln",
+    "koordinaten": [ 145, 160 ],
+    "phase": 1,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "niederrheinHS",
+    "name": "Hochschule Niederrhein",
+    "koordinaten": [ 243, 107 ],
+    "phase": 3,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "siegenUni",
+    "name": "Universität Siegen",
+    "koordinaten": [ 145, 321 ],
+    "phase": 2,
+    "kontaktperson": "",
+    "mail": "",
+    "website": "",
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  }
+]
