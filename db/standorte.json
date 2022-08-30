@@ -8,13 +8,13 @@
     "kontaktpersonen": [
       {
         "name": "Frank Homp",
-        "abteilung": "",
+        "abteilung": "Hochschuldidaktik",
         "mail": "frank.homp@uni-bielefeld.de",
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
       },
       {
         "name": "Marko Wenzel",
-        "abteilung": "",
+        "abteilung": "Hochschuldidaktik",
         "mail": "marko.wenzel@uni-bielefeld.de",
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
       },
@@ -33,48 +33,70 @@
     "kontaktpersonen": [
       {
         "name": "Alexander Kobusch",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
+        "abteilung": "Hochschulbibliothek",
+        "mail": "alexander.kobusch@fh-bielefeld.de",
+        "website": "https://www.fh-bielefeld.de/personenverzeichnis/alexander-kobusch"
       },
       {
         "name": "Linda Halm",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
+        "abteilung": "Hochschulbibliothek",
+        "mail": "linda.halm@fh-bielefeld.de",
+        "website": "https://www.fh-bielefeld.de/personenverzeichnis/linda-halm"
       }
     ],
     "website": "",
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "policyVeroeffentlichung": "30.03.2022",
+    "policyLink": "https://www.fh-bielefeld.de/learningservices/lehrende/oer/policy"
   },
   {
     "id": "bochumRuhrUni",
     "name": "Ruhr-Universität Bochum",
     "koordinaten": [ 270, 205 ],
     "phase": 3,
-    "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
+    "kontaktpersonen": [
+      {
+        "name": "Sarah Görlich",
+        "abteilung": "Wissenschaftsdidaktik",
+        "mail": "sarah.goerlich@rub.de",
+        "website": "https://www.rubel.rub.de/kontakt/rubel-team"
+      }
+     ],
+    "policyVeroeffentlichung": "03.06.2022",
+    "policyLink": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf"
   },
   {
     "id": "bochumHSGesundheit",
     "name": "Hochschule für Gesundheit Bochum",
     "koordinaten": [ 270, 195 ],
     "phase": 3,
-    "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
+    "kontaktpersonen": [
+      {
+        "name": "André Müller",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "andre0.mueller@hs-bochum.de",
+        "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
+
+      }    
+    ],
+    "policyVeroeffentlichung": "28.06.2022",
+    "policyLink": "https://www.hs-gesundheit.de/fileadmin/user_upload/hochschule/Praesidium/Stabsstellen/Qualitaet_Studium_Lehre/OER-Policy-HSGesundheit.pdf"
   },
   {
     "id": "bonnRheinSiegHS",
     "name": "Hochschule Bonn-Rhein-Sieg",
     "koordinaten": [ 115, 195 ],
     "phase": 1,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.h-brs.de/de",
+    "kontaktpersonen": [
+      {
+        "name": "Anna Sancillo",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "anna.sancillo@h-brs.de",
+        "website": "https://www.h-brs.de/de/bib/anna-sancillo"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -83,20 +105,34 @@
     "name": "Fachhochschule Dortmund",
     "koordinaten": [ 285, 235 ],
     "phase": 3,
-    "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "website": "https://www.fh-dortmund.de/",
+    "kontaktpersonen": [
+      {
+        "name": "Sina Nitzsche",
+        "abteilung": "Zukunftswerkstatt <br> (Hochschuldidaktik)",
+        "mail": "sina.nitzsche@fh-dortmund.de",
+        "website": "https://www.fh-dortmund.de/personen/Sina-Nitzsche/index.php"
+      }
+     ],
+    "policyVeroeffentlichung": "08.04.2022",
+    "policyLink": "https://www.fh-dortmund.de/medien/hochschule/gesetze-verordnungen-erlasse/14_OER-Policy-FH-Dortmund.pdf"
   },
   {
     "id": "duesseldorfHHUni",
     "name": "Heinrich-Heine-Universität Düsseldorf",
     "koordinaten": [ 215, 139 ],
     "phase": 3,
-    "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "website": "https://www.hhu.de/",
+    "kontaktpersonen": [
+      {
+        "name": "Elisabeth Scherer",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "scherer@hhu.de",
+        "website": "https://www.elearning.hhu.de/oer-an-der-hhu"
+      }
+     ],
+    "policyVeroeffentlichung": "17.12.2021",
+    "policyLink": "https://www.hhu.de/fileadmin/redaktion/ZUV/Justitiariat/Amtliche_Bekanntmachungen/2021/2021_12_17_AB_58.pdf"
   },
   {
     "id": "duisburgEssenUni",
@@ -104,17 +140,41 @@
     "koordinaten": [ 265, 132 ],
     "phase": 3,
     "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "kontaktpersonen": [
+      { "name": "Julia Liebscher <br> (Campus Duisburg)",
+        "abteilung": "Zentrum für Hochschulqualitätsentwicklung",
+        "mail": "julia.liebscher@uni-due.de",
+        "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
+      },
+      { "name": "Laura Schaffeld <br> (Campus Essen)",
+        "abteilung": "Zentrum für Informations- und Mediendienste",
+        "mail": "laura.schaffeld@uni-due.de",
+        "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
+      }
+     ],
+    "policyVeroeffentlichung": "26.01.2022",
+    "policyLink": "https://www.uni-due.de/de/universitaet/open-educational-ressources.php"
   },
   {
     "id": "koelnTU",
-    "name": "Technische Universität Köln",
+    "name": "Technische Hochschule Köln",
     "koordinaten": [ 145, 170 ],
     "phase": 1,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.th-koeln.de/",
+    "kontaktpersonen": [ 
+      {
+        "name": "Lukas Tappmeyer",
+        "abteilung": "Zentrum für Lehrentwicklung",
+        "mail": "Elukas.tappmeyer@th-koeln.de",
+        "website": "https://www.th-koeln.de/personen/lukas.tappmeyer/"
+      },
+      {
+        "name": "Günther Straub",
+        "abteilung": "Fakultät für Raumentwicklung und Infrastruktursysteme",
+        "mail": "guenther.straub@th-koeln.de",
+        "website": "https://www.th-koeln.de/personen/guenther.straub/"
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -133,10 +193,17 @@
     "name": "Hochschule Niederrhein",
     "koordinaten": [ 243, 107 ],
     "phase": 3,
-    "website": "",
-    "kontaktpersonen": [ ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "website": "https://www.hs-niederrhein.de/startseite/",
+    "kontaktpersonen": [
+      {
+        "name": "Irina Hörmann",
+        "abteilung": "Hochschul- und Mediendidaktik",
+        "mail": "irina.hoermann@hs-niederrhein.de",
+        "website": "https://www.hs-niederrhein.de/hochschul-und-mediendidaktik/"
+      }
+     ],
+    "policyVeroeffentlichung": "02.05.2022",
+    "policyLink": "https://www.hs-niederrhein.de/fileadmin/dateien/dez_st/amtliche_bekanntmachungen/2022/AmtlBek_Nr._16_Open_Educational_Resources.pdf"
   },
   {
     "id": "siegenUni",
