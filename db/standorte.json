@@ -61,7 +61,7 @@
         "mail": "sarah.goerlich@rub.de",
         "website": "https://www.rubel.rub.de/kontakt/rubel-team"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "03.06.2022",
     "policyLink": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf"
   },
@@ -78,7 +78,7 @@
         "mail": "andre0.mueller@hs-bochum.de",
         "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
 
-      }    
+      }
     ],
     "policyVeroeffentlichung": "28.06.2022",
     "policyLink": "https://www.hs-gesundheit.de/fileadmin/user_upload/hochschule/Praesidium/Stabsstellen/Qualitaet_Studium_Lehre/OER-Policy-HSGesundheit.pdf"
@@ -96,7 +96,7 @@
         "mail": "anna.sancillo@h-brs.de",
         "website": "https://www.h-brs.de/de/bib/anna-sancillo"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -109,11 +109,11 @@
     "kontaktpersonen": [
       {
         "name": "Sina Nitzsche",
-        "abteilung": "Zukunftswerkstatt <br> (Hochschuldidaktik)",
+        "abteilung": "Zukunftswerkstatt (Hochschuldidaktik)",
         "mail": "sina.nitzsche@fh-dortmund.de",
         "website": "https://www.fh-dortmund.de/personen/Sina-Nitzsche/index.php"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "08.04.2022",
     "policyLink": "https://www.fh-dortmund.de/medien/hochschule/gesetze-verordnungen-erlasse/14_OER-Policy-FH-Dortmund.pdf"
   },
@@ -130,7 +130,7 @@
         "mail": "scherer@hhu.de",
         "website": "https://www.elearning.hhu.de/oer-an-der-hhu"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "17.12.2021",
     "policyLink": "https://www.hhu.de/fileadmin/redaktion/ZUV/Justitiariat/Amtliche_Bekanntmachungen/2021/2021_12_17_AB_58.pdf"
   },
@@ -141,17 +141,17 @@
     "phase": 3,
     "website": "",
     "kontaktpersonen": [
-      { "name": "Julia Liebscher <br> (Campus Duisburg)",
+      { "name": "Julia Liebscher",
         "abteilung": "Zentrum für Hochschulqualitätsentwicklung",
         "mail": "julia.liebscher@uni-due.de",
         "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
       },
-      { "name": "Laura Schaffeld <br> (Campus Essen)",
+      { "name": "Laura Schaffeld",
         "abteilung": "Zentrum für Informations- und Mediendienste",
         "mail": "laura.schaffeld@uni-due.de",
         "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "26.01.2022",
     "policyLink": "https://www.uni-due.de/de/universitaet/open-educational-ressources.php"
   },
@@ -161,7 +161,7 @@
     "koordinaten": [ 145, 170 ],
     "phase": 1,
     "website": "https://www.th-koeln.de/",
-    "kontaktpersonen": [ 
+    "kontaktpersonen": [
       {
         "name": "Lukas Tappmeyer",
         "abteilung": "Zentrum für Lehrentwicklung",
@@ -201,7 +201,7 @@
         "mail": "irina.hoermann@hs-niederrhein.de",
         "website": "https://www.hs-niederrhein.de/hochschul-und-mediendidaktik/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "02.05.2022",
     "policyLink": "https://www.hs-niederrhein.de/fileadmin/dateien/dez_st/amtliche_bekanntmachungen/2022/AmtlBek_Nr._16_Open_Educational_Resources.pdf"
   },
