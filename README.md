@@ -16,7 +16,7 @@ Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden
 
 Die Standort-Datenbank findet sich unter `db/standorte.json`. Es handelt sich um ein Array mit einem JSON Object für jeden Standort. So ist die Datei aufgebaut:
 
-```json
+```
 [
   {
     "id": "",                         // Eine eindeutige ID. Notwendig.
