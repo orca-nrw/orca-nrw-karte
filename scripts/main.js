@@ -117,9 +117,8 @@ for (let standort of standorte) {
   if (standort.kontaktpersonen.length >= 1) {
     for (let person of standort.kontaktpersonen) {
       let name = (person.website) ? `<br><a href='${person.website}' target='_blank'>${person.name}</a>` : `<br>${person.name}`;
-      let abteilung = (person.abteilung) ? `, ${person.abteilung}` : "";
       let mail = (person.mail) ? ` <a href='mailto:${person.mail}'><i class="far fa-envelope"></i></a>` : "";
-      listePersonen = listePersonen + name + abteilung + mail;
+      listePersonen = listePersonen + name + mail;
     }
     personen = (standort.kontaktpersonen.length > 1) ? "<hr><b>ORCA-Netzwerkstellen</b>" + listePersonen : "<hr><b>ORCA-Netzwerkstelle</b>" + listePersonen;
   }
