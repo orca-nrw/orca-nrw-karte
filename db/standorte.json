@@ -30,7 +30,20 @@
     "name": "Fachhochschule Bielefeld",
     "koordinaten": [ 400, 395 ],
     "phase": 3,
-    "kontaktpersonen": [Alexander Kobusch <br> Linda Halm],
+    "kontaktpersonen": [
+      {
+        "name": "Alexander Kobusch",
+        "abteilung": "",
+        "mail": "",
+        "website": ""
+      },
+      {
+        "name": "Linda Halm",
+        "abteilung": "",
+        "mail": "",
+        "website": ""
+      }
+    ],
     "website": "",
     "policyVeroeffentlichung": "",
     "policyLink": ""
