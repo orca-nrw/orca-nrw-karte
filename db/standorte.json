@@ -4,9 +4,24 @@
     "name": "Universität Bielefeld",
     "koordinaten": [ 400, 385 ],
     "phase": 1,
-    "kontaktperson": "Frank Homp",
-    "mail": "frank.homp@uni-bielefeld.de",
     "website": "https://uni-bielefeld.de",
+    "kontaktpersonen": [
+      {
+        "name": "Frank Homp",
+        "abteilung": "",
+        "mail": "frank.homp@uni-bielefeld.de",
+        "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
+      },
+      {
+        "name": "Marko Wenzel",
+        "abteilung": "",
+        "mail": "marko.wenzel@uni-bielefeld.de",
+        "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
+      },
+      {
+        "name": "Zentrum für Lehren und Lernen"
+      }
+    ],
     "policyVeroeffentlichung": "01.01.1970",
     "policyLink": "https://uni-bielefeld.de/orca"
   },
@@ -15,8 +30,7 @@
     "name": "Fachhochschule Bielefeld",
     "koordinaten": [ 400, 395 ],
     "phase": 3,
-    "kontaktperson": "Alexander Kobusch <br> Linda Halm", 
-    "mail": "",
+    "kontaktpersonen": [Alexander Kobusch <br> Linda Halm],
     "website": "",
     "policyVeroeffentlichung": "",
     "policyLink": ""
@@ -26,9 +40,8 @@
     "name": "Ruhr-Universität Bochum",
     "koordinaten": [ 270, 205 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -37,9 +50,8 @@
     "name": "Hochschule für Gesundheit Bochum",
     "koordinaten": [ 270, 195 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -48,9 +60,8 @@
     "name": "Hochschule Bonn-Rhein-Sieg",
     "koordinaten": [ 115, 195 ],
     "phase": 1,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -59,9 +70,8 @@
     "name": "Fachhochschule Dortmund",
     "koordinaten": [ 285, 235 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -70,9 +80,8 @@
     "name": "Heinrich-Heine-Universität Düsseldorf",
     "koordinaten": [ 215, 139 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -81,9 +90,8 @@
     "name": "Universität Duisburg-Essen",
     "koordinaten": [ 265, 132 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -92,9 +100,8 @@
     "name": "Technische Universität Köln",
     "koordinaten": [ 145, 170 ],
     "phase": 1,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -103,9 +110,8 @@
     "name": "Deutsche Sporthochschule Köln",
     "koordinaten": [ 145, 160 ],
     "phase": 1,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -114,9 +120,8 @@
     "name": "Hochschule Niederrhein",
     "koordinaten": [ 243, 107 ],
     "phase": 3,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -125,9 +130,8 @@
     "name": "Universität Siegen",
     "koordinaten": [ 145, 321 ],
     "phase": 2,
-    "kontaktperson": "",
-    "mail": "",
     "website": "",
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   }
