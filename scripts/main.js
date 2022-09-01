@@ -51,7 +51,7 @@ let overlayMaps = {
 };
 
 let layerControl = L.control.layers(baseMaps, overlayMaps);
-let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel");
+let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel % Frank Homp");
 
 // Karte erstellen
 export let map = L.map('map', {
