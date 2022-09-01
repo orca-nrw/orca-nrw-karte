@@ -1,5 +1,38 @@
 [
   {
+    "id": "aachenFH",
+    "name": "Fachhochschule Aachen",
+    "koordinaten": [ 110, 30 ],
+    "phase": 0,
+    "website": "https://www.fh-aachen.de",
+    "kontaktpersonen": [
+      {
+        "name": "Florian Rosenthal",
+        "abteilung": "Zentrum für Hochschuldidaktik und Qualitätsentwicklung",
+        "mail": "rosenthal@fh-aachen.de",
+        "website": "https://www.fh-aachen.de/hochschule/zentrum-fuer-hochschuldidaktik-und-qualitaetsentwicklung-zhq/menschen-kontakt"
+      },
+      {
+        "name": "Stephanie Schulte-Busch",
+        "abteilung": "Zentrum für Hochschuldidaktik und Qualitätsentwicklung",
+        "mail": "schulte-busch@fh-aachen.de",
+        "website": "https://www.fh-aachen.de/hochschule/zentrum-fuer-hochschuldidaktik-und-qualitaetsentwicklung-zhq/menschen-kontakt"
+      }
+    ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "aachenRWTH",
+    "name": "RWTH Aachen",
+    "koordinaten": [ 110, 38 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
     "id": "bielefeldUni",
     "name": "Universität Bielefeld",
     "koordinaten": [ 400, 385 ],
@@ -28,7 +61,7 @@
   {
     "id": "bielefeldFH",
     "name": "Fachhochschule Bielefeld",
-    "koordinaten": [ 400, 395 ],
+    "koordinaten": [ 400, 393 ],
     "phase": 3,
     "kontaktpersonen": [
       {
@@ -49,9 +82,37 @@
     "policyLink": "https://www.fh-bielefeld.de/learningservices/lehrende/oer/policy"
   },
   {
+    "id": "bochumHS",
+    "name": "Hochschule Bochum",
+    "koordinaten": [ 263, 194 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "bochumHSGesundheit",
+    "name": "Hochschule für Gesundheit Bochum",
+    "koordinaten": [ 271, 202 ],
+    "phase": 3,
+    "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
+    "kontaktpersonen": [
+      {
+        "name": "André Müller",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "andre0.mueller@hs-bochum.de",
+        "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
+
+      }
+    ],
+    "policyVeroeffentlichung": "28.06.2022",
+    "policyLink": "https://www.hs-gesundheit.de/fileadmin/user_upload/hochschule/Praesidium/Stabsstellen/Qualitaet_Studium_Lehre/OER-Policy-HSGesundheit.pdf"
+  },
+  {
     "id": "bochumRuhrUni",
     "name": "Ruhr-Universität Bochum",
-    "koordinaten": [ 270, 205 ],
+    "koordinaten": [ 271, 194 ],
     "phase": 3,
     "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
     "kontaktpersonen": [
@@ -66,22 +127,14 @@
     "policyLink": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf"
   },
   {
-    "id": "bochumHSGesundheit",
-    "name": "Hochschule für Gesundheit Bochum",
-    "koordinaten": [ 270, 195 ],
-    "phase": 3,
-    "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
-    "kontaktpersonen": [
-      {
-        "name": "André Müller",
-        "abteilung": "Hochschuldidaktik",
-        "mail": "andre0.mueller@hs-bochum.de",
-        "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
-
-      }
-    ],
-    "policyVeroeffentlichung": "28.06.2022",
-    "policyLink": "https://www.hs-gesundheit.de/fileadmin/user_upload/hochschule/Praesidium/Stabsstellen/Qualitaet_Studium_Lehre/OER-Policy-HSGesundheit.pdf"
+    "id": "bonnRheinischeFWUni",
+    "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "koordinaten": [ 90, 183 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
   },
   {
     "id": "bonnRheinSiegHS",
@@ -101,9 +154,19 @@
     "policyLink": ""
   },
   {
+    "id": "detmoldHSMusik",
+    "name": "Hochschule für Musik Detmold",
+    "koordinaten": [ 382, 430 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
     "id": "dortmundFH",
     "name": "Fachhochschule Dortmund",
-    "koordinaten": [ 285, 235 ],
+    "koordinaten": [ 285, 230 ],
     "phase": 3,
     "website": "https://www.fh-dortmund.de/",
     "kontaktpersonen": [
@@ -118,9 +181,19 @@
     "policyLink": "https://www.fh-dortmund.de/medien/hochschule/gesetze-verordnungen-erlasse/14_OER-Policy-FH-Dortmund.pdf"
   },
   {
+    "id": "dortmundTU",
+    "name": "Technische Universität Dortmund",
+    "koordinaten": [ 285, 238 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
     "id": "duesseldorfHHUni",
     "name": "Heinrich-Heine-Universität Düsseldorf",
-    "koordinaten": [ 215, 139 ],
+    "koordinaten": [ 218, 135 ],
     "phase": 3,
     "website": "https://www.hhu.de/",
     "kontaktpersonen": [
@@ -133,6 +206,36 @@
     ],
     "policyVeroeffentlichung": "17.12.2021",
     "policyLink": "https://www.hhu.de/fileadmin/redaktion/ZUV/Justitiariat/Amtliche_Bekanntmachungen/2021/2021_12_17_AB_58.pdf"
+  },
+  {
+    "id": "duesseldorfHS",
+    "name": "Hochschule Düsseldorf",
+    "koordinaten": [ 218, 143 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "duesseldorfKunstakademie",
+    "name": "Kunstakademie Düsseldorf",
+    "koordinaten": [ 210, 135 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "duesseldorfRobertSchumannHS",
+    "name": "Robert Schumann Hochschule Düsseldorf",
+    "koordinaten": [ 210, 143 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
   },
   {
     "id": "duisburgEssenUni",
@@ -156,9 +259,59 @@
     "policyLink": "https://www.uni-due.de/de/universitaet/open-educational-ressources.php"
   },
   {
+    "id": "essenFolkwangUniKünste",
+    "name": "Folkwang Universität der Künste",
+    "koordinaten": [ 260, 173 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "hagenFernUni",
+    "name": "Fernuniversität in Hagen",
+    "koordinaten": [ 245, 240 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "hammLippstadtHS",
+    "name": "Hochschule Hamm-Lippstadt",
+    "koordinaten": [ 318, 287 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "koelnHSMusikTanz",
+    "name": "Hochschule für Musik und Tanz Köln",
+    "koordinaten": [ 142, 157 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "koelnKunsthochschuleMedien",
+    "name": "Kundhochschule für Medien Köln",
+    "koordinaten": [ 142, 165 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
     "id": "koelnTU",
     "name": "Technische Hochschule Köln",
-    "koordinaten": [ 145, 170 ],
+    "koordinaten": [ 150, 165 ],
     "phase": 1,
     "website": "https://www.th-koeln.de/",
     "kontaktpersonen": [
@@ -181,8 +334,48 @@
   {
     "id": "koelnSportHS",
     "name": "Deutsche Sporthochschule Köln",
-    "koordinaten": [ 145, 160 ],
+    "koordinaten": [ 150, 157 ],
     "phase": 1,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "koelnUni",
+    "name": "Universität zu Köln",
+    "koordinaten": [ 150, 173 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "muensterFH",
+    "name": "Fachhochschule Münster",
+    "koordinaten": [ 380, 254 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "muensterKunstakademie",
+    "name": "Kunstakademie Münster",
+    "koordinaten": [ 388, 262 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "muensterWestfaelischeWilhelmsUni",
+    "name": "Westfälische Wilhelms-Universität Münster",
+    "koordinaten": [ 388, 254 ],
+    "phase": 0,
     "website": "",
     "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
@@ -206,12 +399,89 @@
     "policyLink": "https://www.hs-niederrhein.de/fileadmin/dateien/dez_st/amtliche_bekanntmachungen/2022/AmtlBek_Nr._16_Open_Educational_Resources.pdf"
   },
   {
+    "id": "owlTHU",
+    "name": "Technische Hochschule Ostwestphalen-Lippe",
+    "koordinaten": [ 390, 430 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "paderbornUni",
+    "name": "Universität Paderborn",
+    "koordinaten": [ 330, 420 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "rheinWaalHS",
+    "name": "Hochschule Rhein-Waal",
+    "koordinaten": [ 351, 47 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "ruhrWestHS",
+    "name": "Hochschule Ruhr-West",
+    "koordinaten": [ 258, 151 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
     "id": "siegenUni",
     "name": "Universität Siegen",
     "koordinaten": [ 145, 321 ],
     "phase": 2,
     "website": "",
     "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "suedwestfalenFH",
+    "name": "Fachhochschule Südwestfalen",
+    "koordinaten": [ 249, 265 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "westfaelischeHS",
+    "name": "Westfälische Hochschule",
+    "koordinaten": [ 288, 180 ],
+    "phase": 0,
+    "website": "",
+    "kontaktpersonen": [ ],
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
+  },
+  {
+    "id": "wuppertalBergischeUni",
+    "name": "Bergische Universität Wuppertal",
+    "koordinaten": [ 220, 190 ],
+    "phase": 0,
+    "website": "https://www.uni-wuppertal.de/de/",
+    "kontaktpersonen": [
+      {
+        "name": "André Urban, M.A.",
+        "abteilung": "Dezernat 6 für Studium, Lehre und Qualitätsmanagement",
+        "mail": "aurban@uni-wuppertal.de",
+        "website": "https://bundle.uni-wuppertal.de/de/netzwerk-digitalisierung/"
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   }
