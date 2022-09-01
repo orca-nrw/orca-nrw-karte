@@ -1,0 +1,16 @@
+[
+  {
+    "id": "bielefeldUni",
+    "name": "Universität Bielefeld",
+    "koordinaten": [ 400, 385 ],
+    "website": "https://uni-bielefeld.de",
+    "beratungsstellen": [
+      {
+        "name": "Schreibberatung im Peer Learning",
+        "website": "https://www.uni-bielefeld.de/peerlearning",
+        "mail": "peerlearning@uni-bielefeld.de",
+        "kategorien": [ "schreiben" ]
+      }
+    ]
+  }
+]
