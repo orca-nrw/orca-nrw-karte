@@ -3,26 +3,26 @@ const blauerPunkt = {
   color: 'rgb(42,168,226)',
   fillColor: 'rgb(42,168,226)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 };
 
 const orangerPunkt = {
   color: 'rgb(249,147,28)',
   fillColor: 'rgb(249,147,28)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 };
 
 const gruenerPunkt = {
   color: 'rgb(0,104,55)',
   fillColor: 'rgb(0,104,55)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 }
 
 const grauerPunkt = {
   color: 'rgb(128,128,128)',
-  fillColor: 'rgb(128,128,128))',
+  fillColor: 'rgb(128,128,128)',
   fillOpacity: 1,
   radius: 1.5
 }
@@ -34,7 +34,7 @@ let entwurfsphase = L.layerGroup();
 let hochschulstandort = L.layerGroup();
 
 // Overlays definieren
-let bounds = [[0, 0], [526, 524]];
+let bounds = [[0, 0], [524, 524]];
 let mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
 let mapNoBorders = L.imageOverlay('img/orca-nrw-map_no-borders.svg', bounds);
 
@@ -63,8 +63,15 @@ export let map = L.map('map', {
   scrollWheelZoom: false
 });
 
+let element = document.getElementById('map');
+let mapWidth = element.clientWidth;
+let mapHeight = element.clientHeight;
+
+const initialZoomLevel = (mapWidth > 524 || mapHeight > 524) ? 1 : 0;
+
 layerControl.addTo(map);
-map.fitBounds(bounds);
+// map.fitBounds(bounds);
+map.setView([265, 262], initialZoomLevel);
 map.attributionControl.setPrefix(false);
 attribution.addTo(map);
 
