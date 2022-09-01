@@ -36,8 +36,8 @@ code {
 }
 
 .leaflet-container {
-  height: 526px;
-  width: 524px;
+  height: 1024px;
+  width: 1024px;
   max-width: 100%;
   max-height: 100%;
 }
