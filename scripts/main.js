@@ -3,26 +3,26 @@ const blauerPunkt = {
   color: 'rgb(42,168,226)',
   fillColor: 'rgb(42,168,226)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 };
 
 const orangerPunkt = {
   color: 'rgb(249,147,28)',
   fillColor: 'rgb(249,147,28)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 };
 
 const gruenerPunkt = {
   color: 'rgb(0,104,55)',
   fillColor: 'rgb(0,104,55)',
   fillOpacity: 1,
-  radius: 3
+  radius: 2
 }
 
 const grauerPunkt = {
   color: 'rgb(128,128,128)',
-  fillColor: 'rgb(128,128,128))',
+  fillColor: 'rgb(128,128,128)',
   fillOpacity: 1,
   radius: 1.5
 }
@@ -34,7 +34,7 @@ let entwurfsphase = L.layerGroup();
 let hochschulstandort = L.layerGroup();
 
 // Overlays definieren
-let bounds = [[0, 0], [526, 524]];
+let bounds = [[0, 0], [524, 524]];
 let mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
 let mapNoBorders = L.imageOverlay('img/orca-nrw-map_no-borders.svg', bounds);
 
@@ -51,7 +51,7 @@ let overlayMaps = {
 };
 
 let layerControl = L.control.layers(baseMaps, overlayMaps);
-let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel");
+let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel % Frank Homp");
 
 // Karte erstellen
 export let map = L.map('map', {
@@ -63,8 +63,15 @@ export let map = L.map('map', {
   scrollWheelZoom: false
 });
 
+let element = document.getElementById('map');
+let mapWidth = element.clientWidth;
+let mapHeight = element.clientHeight;
+
+const initialZoomLevel = (mapWidth > 524 || mapHeight > 524) ? 1 : 0;
+
 layerControl.addTo(map);
-map.fitBounds(bounds);
+// map.fitBounds(bounds);
+map.setView([265, 262], initialZoomLevel);
 map.attributionControl.setPrefix(false);
 attribution.addTo(map);
 
@@ -93,7 +100,7 @@ for (let standort of standorte) {
   let marker;
   let listePersonen = "";
   let personen = "";
-  const standortUeberschrift = (standort.website) ? `<b><a href='${standort.website}' target='_blank'>${standort.name}</a></b>` : `<b>${standort.name}</b>`
+  const standortUeberschrift = (standort.website) ? `<b><a href='${standort.website}' target='_blank'>${standort.name}</a></b>` : `<b>${standort.name}</b>`;
   const veroeffentlichung = (standort.policyVeroeffentlichung) ? `<br>Veröffentlicht am ${standort.policyVeroeffentlichung}` : "<br>Nicht veröffentlicht";
   const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Zur Policy</a>` : "";
   const policy = (standort.policyLink) ? "<hr><b>OER-Policy</b>" + veroeffentlichung + link : "";
