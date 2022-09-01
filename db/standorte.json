@@ -36,7 +36,7 @@
     "id": "bielefeldUni",
     "name": "Universität Bielefeld",
     "koordinaten": [ 400, 385 ],
-    "phase": 1,
+    "phase": 2,
     "website": "https://uni-bielefeld.de",
     "kontaktpersonen": [
       {
@@ -52,11 +52,11 @@
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
       },
       {
-        "name": "Zentrum für Lehren und Lernen"
+        "name": "Hochschuldidaktik"
       }
     ],
-    "policyVeroeffentlichung": "01.01.1970",
-    "policyLink": "https://uni-bielefeld.de/orca"
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
   },
   {
     "id": "bielefeldFH",
@@ -337,7 +337,14 @@
     "koordinaten": [ 150, 157 ],
     "phase": 1,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Till Stankewitz",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "t.stankewitz@dshs-koeln.de",
+        "website": "https://www.dshs-koeln.de/visitenkarte/person/till-stankewitz/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -441,10 +448,17 @@
   {
     "id": "siegenUni",
     "name": "Universität Siegen",
-    "koordinaten": [ 145, 321 ],
+    "koordinaten": [145, 321],
     "phase": 2,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [ 
+      {
+        "name": "Bianca Geurden",
+        "abteilung": "Hochschuldidaktik",
+        "mail": " Bianca.Geurden@uni-siegen.de",
+        "website": "https://zfh.uni-siegen.de/dh-nrw/orca/index.html"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
