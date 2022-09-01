@@ -3,7 +3,7 @@
     "id": "bielefeldUni",
     "name": "Universität Bielefeld",
     "koordinaten": [ 400, 385 ],
-    "phase": 1,
+    "phase": 2,
     "website": "https://uni-bielefeld.de",
     "kontaktpersonen": [
       {
@@ -19,11 +19,11 @@
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
       },
       {
-        "name": "Zentrum für Lehren und Lernen"
+        "name": "Hochschuldidaktik"
       }
     ],
-    "policyVeroeffentlichung": "01.01.1970",
-    "policyLink": "https://uni-bielefeld.de/orca"
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
   },
   {
     "id": "bielefeldFH",
@@ -184,7 +184,14 @@
     "koordinaten": [ 145, 160 ],
     "phase": 1,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Till Stankewitz",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "t.stankewitz@dshs-koeln.de",
+        "website": "https://www.dshs-koeln.de/visitenkarte/person/till-stankewitz/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -208,11 +215,53 @@
   {
     "id": "siegenUni",
     "name": "Universität Siegen",
-    "koordinaten": [ 145, 321 ],
+    "koordinaten": [145, 321],
     "phase": 2,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [ 
+      {
+        "name": "Bianca Geurden",
+        "abteilung": "Hochschuldidaktik",
+        "mail": " Bianca.Geurden@uni-siegen.de",
+        "website": "https://zfh.uni-siegen.de/dh-nrw/orca/index.html"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
-  }
-]
+  },
+  {
+    "id": "AachenRWTH",
+    "name": "RWTH Aachen",
+    "koordinaten": [116, 31],
+    "phase": 0,
+    "website": "https://cls.rwth-aachen.de/orca-nrw/",
+    "kontaktpersonen":[
+      {
+        "name": "Dr. Nicole Hützen",
+        "abteilung": "",
+        "mail": "nicole.huetzen@ifaar.rwth-aachen.de",
+        "website": "https://www.rwth-aachen.de/go/id/bdfr/gguid/0x8C73434B9F32224ABABD44B256A79198"
+      },
+      {
+        "name": "Dr. phil. Josefine Mendez Parente",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "mendez@exact.rwth-aachen.de",
+        "website": "https://www.rwth-aachen.de/go/id/bdfr/gguid/0x15503F08FBA80F44BE777B9D45C1D7B1"
+      }
+    ]    
+  },
+  {
+    "id": "AachenFH",
+    "name": "Fachhochschule Aachen",
+    "koordinaten": [107, 35],
+    "phase": 0,
+    "website": "https://www.fh-aachen.de/",
+    "kontaktpersonen":[
+      {
+        "name": "Florian Rosenthal",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "rosenthal@fh-aachen.de",
+        "website": "https://www.fh-aachen.de/hochschule/zentrum-fuer-hochschuldidaktik-und-qualitaetsentwicklung-zhq/menschen-kontakt"
+      }
+    ]
+  ]
