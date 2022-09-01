@@ -100,7 +100,7 @@ for (let standort of standorte) {
   let marker;
   let listePersonen = "";
   let personen = "";
-  const standortUeberschrift = (standort.website) ? `<b><a href='${standort.website}' target='_blank'>${standort.name}</a></b>` : `<b>${standort.name}</b>`
+  const standortUeberschrift = (standort.website) ? `<b><a href='${standort.website}' target='_blank'>${standort.name}</a></b>` : `<b>${standort.name}</b>`;
   const veroeffentlichung = (standort.policyVeroeffentlichung) ? `<br>Veröffentlicht am ${standort.policyVeroeffentlichung}` : "<br>Nicht veröffentlicht";
   const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Zur Policy</a>` : "";
   const policy = (standort.policyLink) ? "<hr><b>OER-Policy</b>" + veroeffentlichung + link : "";
