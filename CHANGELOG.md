@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 ### Changed
 - Die Karte wurde etwas generalisiert und ermöglicht jetzt leichter, auch andere Daten zu zeigen.
+- standorte.json aktualisiert.
+- Die Skripte für die einzelnen Karten wurden der Übersicht halber in einen ORdner geschoben.
 
 ### Fixed
 - Das Label für Hochschulstandorte zeigt jetzt an, dass es sich um ORCA-Mitglieder handelt, die nur keine Open Content Policy haben.
