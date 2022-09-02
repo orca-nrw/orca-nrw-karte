@@ -8,13 +8,13 @@
     "kontaktpersonen": [
       {
         "name": "Florian Rosenthal",
-        "abteilung": "Zentrum für Hochschuldidaktik und Qualitätsentwicklung",
+        "abteilung": "Hochschuldidaktik",
         "mail": "rosenthal@fh-aachen.de",
         "website": "https://www.fh-aachen.de/hochschule/zentrum-fuer-hochschuldidaktik-und-qualitaetsentwicklung-zhq/menschen-kontakt"
       },
       {
         "name": "Stephanie Schulte-Busch",
-        "abteilung": "Zentrum für Hochschuldidaktik und Qualitätsentwicklung",
+        "abteilung": "Hochschuldidaktik",
         "mail": "schulte-busch@fh-aachen.de",
         "website": "https://www.fh-aachen.de/hochschule/zentrum-fuer-hochschuldidaktik-und-qualitaetsentwicklung-zhq/menschen-kontakt"
       }
@@ -27,8 +27,24 @@
     "name": "RWTH Aachen",
     "koordinaten": [ 110, 38 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.rwth-aachen.de/cms/~a/root/",
+    "kontaktpersonen": [
+      {
+        "name": "Dr. Nicole Hützen",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "nicole.huetzen@ifaar.rwth-aachen.de",
+        "website": "https://www.anglistik.rwth-aachen.de/cms/Anglistik/Anglistik-Amerikanistik/Anglistische-Sprachwissenschaft/~gcmo/N-Huetzen-Mit/?allou=1"
+      },
+      {
+        "name": "Dr. phil. Josefine Mendez Parente",
+        "abteilung": "Hochschuldidaktik",
+       "mail": "mendez@exact.rwth-aachen.de",
+       "website": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Kontakt/~bdfr/Mitarbeiter-CAMPUS-/?gguid=0x15503F08FBA80F44BE777B9D45C1D7B1"
+      },
+      {
+        "name": "Hochschuldidaktik"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -87,7 +103,20 @@
     "koordinaten": [ 263, 194 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Dr. Phil. André Müller",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "andre0.mueller@hs-bochum.de",
+        "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
+      },
+      {
+        "name": "Dr. Phil. André Müller",
+        "abteilung": "Fachbereich Wirtschaft",
+        "mail": "matthias.staupe@hs-bochum.de",
+        "website": "https://www.hochschule-bochum.de/personen/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -159,7 +188,14 @@
     "koordinaten": [ 382, 430 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Elena Schilke",
+        "abteilung": "",
+        "mail": "helene.schilke@hfm-detmold.de",
+        "website": "http://www.cemfi.de/elena-schilke"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -186,7 +222,14 @@
     "koordinaten": [ 285, 238 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Dr. Markus Jahn",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "markus.jahn@tu-dortmund.de",
+        "website": "https://hd.zhb.tu-dortmund.de/bereich-hd/team/markus-jahn/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -212,8 +255,15 @@
     "name": "Hochschule Düsseldorf",
     "koordinaten": [ 218, 143 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.hs-duesseldorf.de/",
+    "kontaktpersonen": [
+      {
+        "name": "Sabine Kober",
+        "abteilung": "Mediendidaktik",
+        "mail": "sabine.kober@hs-duesseldorf.de",
+        "website": "https://zwek.hs-duesseldorf.de/personen/kober"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -223,7 +273,11 @@
     "koordinaten": [ 210, 135 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "N.N. <br> Wenden Sie sich gerne an die Netzwerkkoordination von ORCA.nrw: netzwerk@orca.nrw"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -232,8 +286,15 @@
     "name": "Robert Schumann Hochschule Düsseldorf",
     "koordinaten": [ 210, 143 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.rsh-duesseldorf.de/",
+    "kontaktpersonen": [
+      {
+        "name": "Anne Krüger",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "anne.krueger@rsh-duesseldorf.de",
+        "website": "https://www.rsh-duesseldorf.de/lehrentwicklung/team/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -264,7 +325,14 @@
     "koordinaten": [ 260, 173 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [ 
+      {
+        "name": "Robin Schütgens",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "robin.schuetgens@folkwang-uni.de",
+        "website": "https://www.folkwang-uni.de/home/hochschule/organisation/verwaltung-technik/dezernat-studium-und-internationales/hochschul-und-mediendidaktik/"
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -273,8 +341,15 @@
     "name": "Fernuniversität in Hagen",
     "koordinaten": [ 245, 240 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.fernuni-hagen.de/",
+    "kontaktpersonen": [
+      {
+        "name": "Dr. Anke Marks",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "anke.marks@fernuni-hagen.de",
+        "website": "https://www.fernuni-hagen.de/zli/blog/author/marks/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -283,8 +358,15 @@
     "name": "Hochschule Hamm-Lippstadt",
     "koordinaten": [ 318, 287 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.hshl.de/",
+    "kontaktpersonen": [ 
+      {
+        "name": "Henrike Heckmann",
+        "abteilung": "",
+        "mail": "henrike.heckmann@hshl.de",
+        "website": 
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
