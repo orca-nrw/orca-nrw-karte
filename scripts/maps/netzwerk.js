@@ -1,5 +1,5 @@
-import {mapErstellen, mapBorders, layerControlErstellen} from "./create-map.js";
-import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "./define-markers.js";
+import {mapErstellen, mapBorders, layerControlErstellen} from "../create-map.js";
+import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "../define-markers.js";
 
 // Layer groups definieren
 let veroeffentlicht = L.layerGroup();
@@ -27,7 +27,7 @@ legende.onAdd = function (map) {
   div.innerHTML += "<span style='color: rgb(0,104,55);'>&#x25CF; </span><span>Veröffentlicht</span>";
   div.innerHTML += "<br><span style='color: rgb(249,147,28);'>&#x25CF; </span><span>Gremienphase</span>";
   div.innerHTML += "<br><span style='color: rgb(42,168,226);'>&#x25CF; </span><span>Entwurfsphase</span>";
-  div.innerHTML += "<br><span style='color: rgb(128,128,128);'>&#x25CF; </span><span>Hochschulstandort</span>";
+  div.innerHTML += "<br><span style='color: rgb(128,128,128);'>&#x25CF; </span><span>Noch keine Policy</span>";
   return div;
 };
 legende.addTo(map);
