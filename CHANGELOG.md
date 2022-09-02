@@ -8,10 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 - Die Karte wurde etwas generalisiert und ermöglicht jetzt leichter, auch andere Daten zu zeigen.
 - standorte.json aktualisiert.
-- Die Skripte für die einzelnen Karten wurden der Übersicht halber in einen ORdner geschoben.
+- Die Skripte für die einzelnen Karten wurden der Übersicht halber in einen Ordner geschoben.
+- Karte wurde angepasst, so dass nur NRW zu sehen ist.
+- Die Karte startet nun immer mit Zoomlevel 0, unabhängig von der Größe des Containers.
 
 ### Fixed
-- Das Label für Hochschulstandorte zeigt jetzt an, dass es sich um ORCA-Mitglieder handelt, die nur keine Open Content Policy haben.
+- Das Label für Hochschulstandorte zeigt jetzt an, dass es sich um ORCA-Mitglieder handelt, die nur keine OER Policy haben.
 - Der Leaflet-Container füllt nun die komplette Größe des Containers.
 
 ## [0.4.0] - 2022-09-01
