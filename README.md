@@ -1,6 +1,6 @@
 # orca-nrw-karte
 
-Version: 0.4.0. Stand: 2022-09-01.
+Version: 0.5.0. Stand: 2022-09-02.
 
 Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
@@ -41,7 +41,7 @@ Die Standort-Datenbank findet sich unter `db/standorte.json`. Es handelt sich um
 Die Entwicklungsphasen sind:
 
 ```
-0 = Kein ORCA-Mitglied. Taucht auf der Karte als „Hochschulstandort“ auf.
+0 = Noch keine Policy.
 1 = Entwurfsphase.
 2 = Gremienphase.
 3 = Veröffentlicht.

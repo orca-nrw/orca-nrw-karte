@@ -38,13 +38,13 @@
       {
         "name": "Dr. phil. Josefine Mendez Parente",
         "abteilung": "Hochschuldidaktik",
-       "mail": "mendez@exact.rwth-aachen.de",
-       "website": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Kontakt/~bdfr/Mitarbeiter-CAMPUS-/?gguid=0x15503F08FBA80F44BE777B9D45C1D7B1"
+        "mail": "mendez@exact.rwth-aachen.de",
+        "website": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Kontakt/~bdfr/Mitarbeiter-CAMPUS-/?gguid=0x15503F08FBA80F44BE777B9D45C1D7B1"
       },
       {
         "name": "Hochschuldidaktik"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -66,9 +66,6 @@
         "abteilung": "Hochschuldidaktik",
         "mail": "marko.wenzel@uni-bielefeld.de",
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
-      },
-      {
-        "name": "Hochschuldidaktik"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -116,7 +113,7 @@
         "mail": "matthias.staupe@hs-bochum.de",
         "website": "https://www.hochschule-bochum.de/personen/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -195,7 +192,7 @@
         "mail": "helene.schilke@hfm-detmold.de",
         "website": "http://www.cemfi.de/elena-schilke"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -229,7 +226,7 @@
         "mail": "markus.jahn@tu-dortmund.de",
         "website": "https://hd.zhb.tu-dortmund.de/bereich-hd/team/markus-jahn/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -263,7 +260,7 @@
         "mail": "sabine.kober@hs-duesseldorf.de",
         "website": "https://zwek.hs-duesseldorf.de/personen/kober"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -277,7 +274,7 @@
       {
         "name": "N.N. <br> Wenden Sie sich gerne an die Netzwerkkoordination von ORCA.nrw: netzwerk@orca.nrw"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -294,7 +291,7 @@
         "mail": "anne.krueger@rsh-duesseldorf.de",
         "website": "https://www.rsh-duesseldorf.de/lehrentwicklung/team/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -325,7 +322,7 @@
     "koordinaten": [ 260, 173 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ 
+    "kontaktpersonen": [
       {
         "name": "Robin Schütgens",
         "abteilung": "Hochschuldidaktik",
@@ -349,7 +346,7 @@
         "mail": "anke.marks@fernuni-hagen.de",
         "website": "https://www.fernuni-hagen.de/zli/blog/author/marks/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -359,12 +356,12 @@
     "koordinaten": [ 318, 287 ],
     "phase": 0,
     "website": "https://www.hshl.de/",
-    "kontaktpersonen": [ 
+    "kontaktpersonen": [
       {
         "name": "Henrike Heckmann",
         "abteilung": "",
         "mail": "henrike.heckmann@hshl.de",
-        "website": 
+        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
@@ -426,7 +423,7 @@
         "mail": "t.stankewitz@dshs-koeln.de",
         "website": "https://www.dshs-koeln.de/visitenkarte/person/till-stankewitz/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -530,17 +527,17 @@
   {
     "id": "siegenUni",
     "name": "Universität Siegen",
-    "koordinaten": [145, 321],
+    "koordinaten": [ 145, 321 ],
     "phase": 2,
     "website": "",
-    "kontaktpersonen": [ 
+    "kontaktpersonen": [
       {
         "name": "Bianca Geurden",
         "abteilung": "Hochschuldidaktik",
         "mail": " Bianca.Geurden@uni-siegen.de",
         "website": "https://zfh.uni-siegen.de/dh-nrw/orca/index.html"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
