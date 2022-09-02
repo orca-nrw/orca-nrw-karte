@@ -41,7 +41,7 @@ Die Standort-Datenbank findet sich unter `db/standorte.json`. Es handelt sich um
 Die Entwicklungsphasen sind:
 
 ```
-0 = Kein ORCA-Mitglied. Taucht auf der Karte als „Hochschulstandort“ auf.
+0 = Noch keine Policy.
 1 = Entwurfsphase.
 2 = Gremienphase.
 3 = Veröffentlicht.
