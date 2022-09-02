@@ -79,7 +79,7 @@ for (let standort of standorte) {
 
   // Block Policy
   const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
-  const blockPolicy = "<hr><b>Open Content Policy</b><br>" + policyVeroeffentlichung + link;
+  const blockPolicy = "<hr><b>OER Policy</b><br>" + policyVeroeffentlichung + link;
 
   // Popup definieren
   let popup = L.responsivePopup().setContent(`${blockUeberschrift}${blockPersonen}${blockPolicy}`);

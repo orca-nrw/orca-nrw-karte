@@ -17,21 +17,22 @@ export function mapErstellen(layers) {
   let map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: 0,
-    zoomSnap: 0.001,
+    zoomSnap: 1,
     layers: layers,
     maxBounds: bounds,
     doubleClickZoom: false,
     scrollWheelZoom: false
   });
 
-  let element = document.getElementById('map');
-  let mapWidth = Math.log2(element.clientWidth / 524);
-  let mapHeight = Math.log2(element.clientHeight / 524);
+  // Berechnung Zoom Level
+  // let element = document.getElementById('map');
+  // let mapWidth = Math.log2(element.clientWidth / 524);
+  // let mapHeight = Math.log2(element.clientHeight / 524);
 
-  const initialZoomLevel = (mapWidth > mapHeight) ? mapWidth : mapHeight;
+  // const initialZoomLevel = (mapWidth > mapHeight) ? mapWidth : mapHeight;
 
   layerControl.addTo(map);
-  map.setView([262, 262], initialZoomLevel);
+  map.setView([262, 262], 0);
   map.attributionControl.setPrefix(false);
   attribution.addTo(map);
 
