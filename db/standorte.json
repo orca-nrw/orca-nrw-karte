@@ -52,7 +52,7 @@
     "id": "bielefeldUni",
     "name": "Universität Bielefeld",
     "koordinaten": [ 400, 385 ],
-    "phase": 2,
+    "phase": 1,
     "website": "https://uni-bielefeld.de",
     "kontaktpersonen": [
       {
@@ -90,7 +90,7 @@
         "website": "https://www.fh-bielefeld.de/personenverzeichnis/linda-halm"
       }
     ],
-    "website": "",
+    "website": "https://www.fh-bielefeld.de/bib/personen-und-projekte/orcanrw",
     "policyVeroeffentlichung": "30.03.2022",
     "policyLink": "https://www.fh-bielefeld.de/learningservices/lehrende/oer/policy"
   },
@@ -99,7 +99,7 @@
     "name": "Hochschule Bochum",
     "koordinaten": [ 263, 194 ],
     "phase": 0,
-    "website": "",
+    "website": "https://www.hochschule-bochum.de/",
     "kontaktpersonen": [
       {
         "name": "Dr. Phil. André Müller",
@@ -157,8 +157,15 @@
     "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
     "koordinaten": [ 90, 183 ],
     "phase": 0,
-    "website": "",
-    "kontaktpersonen": [ ],
+    "website": "https://www.bzh.uni-bonn.de/de/wer-wir-sind/team-qualifizierung",
+    "kontaktpersonen": [
+      {
+        "name": "Alexandra N. Andreasová",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "andreasova@uni-bonn.de",
+        "website": "https://www.bzh.uni-bonn.de/personenverzeichnis"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -272,7 +279,7 @@
     "website": "",
     "kontaktpersonen": [
       {
-        "name": "N.N. <br> Wenden Sie sich gerne an die Netzwerkkoordination von ORCA.nrw: netzwerk@orca.nrw"
+        "name": "N.N. <br> Bitte wenden Sie sich an netzwerk@orca.nrw"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -355,13 +362,13 @@
     "name": "Hochschule Hamm-Lippstadt",
     "koordinaten": [ 318, 287 ],
     "phase": 0,
-    "website": "https://www.hshl.de/",
+    "website": "https://www.hshl.de/hochschule-hamm-lippstadt/profil/digitalisierung/",
     "kontaktpersonen": [
       {
         "name": "Henrike Heckmann",
         "abteilung": "",
         "mail": "henrike.heckmann@hshl.de",
-        "website": ""
+        "website": "https://www.hshl.de/hochschule-hamm-lippstadt/profil/digitalisierung/"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -373,17 +380,31 @@
     "koordinaten": [ 142, 157 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Gabi Reichardt",
+        "abteilung": "",
+        "mail": "gabi.reichardt@hfmt-koeln.de",
+        "website": "https://www.hfmt-koeln.de/mitarbeiter/"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "koelnKunsthochschuleMedien",
-    "name": "Kundhochschule für Medien Köln",
+    "name": "Kunsthochschule für Medien Köln",
     "koordinaten": [ 142, 165 ],
     "phase": 0,
     "website": "",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "N.N",
+        "abteilung": "",
+        "mail": "netzwerk@orca.nrw",
+        "website": "https://www.orca.nrw/ueber-uns"
+      }
+     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -415,7 +436,7 @@
     "name": "Deutsche Sporthochschule Köln",
     "koordinaten": [ 150, 157 ],
     "phase": 1,
-    "website": "",
+    "website": "https://www.dshs-koeln.de/",
     "kontaktpersonen": [
       {
         "name": "Till Stankewitz",
