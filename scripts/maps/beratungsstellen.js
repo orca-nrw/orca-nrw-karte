@@ -1,5 +1,5 @@
-import {mapErstellen, mapBorders, layerControlErstellen} from "./create-map.js";
-import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "./define-markers.js";
+import {mapErstellen, mapBorders, layerControlErstellen} from "../create-map.js";
+import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "../define-markers.js";
 
 // Layer groups definieren
 let schreibberatung = L.layerGroup();
