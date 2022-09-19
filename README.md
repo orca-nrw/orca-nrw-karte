@@ -1,6 +1,6 @@
 # orca-nrw-karte
 
-Version: 0.5.0. Stand: 2022-09-02.
+Version: 0.5.2. Stand: 2022-09-07.
 
 Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
@@ -9,7 +9,7 @@ Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden
  Die Karte kann mittels diesem Einbettungscode eingebettet werden:
 
  ```html
- <iframe src="https://mrkwnzl.github.io/orca-nrw-karte/karte.html" height="526" width="524"></iframe>
+ <iframe src="https://mrkwnzl.github.io/orca-nrw-karte/karte.html" height="550" width="100%"></iframe>
  ```
 
  ## Standort-Datenbank
@@ -49,7 +49,7 @@ Die Entwicklungsphasen sind:
 
 ## Contribution
 
-Pull Requests bitte auf den develop-Branch richten. Pull Request auf den main-Branch werden mit Hinweis auf den dvelop-Branch gelöscht.
+Pull Requests bitte auf den develop-Branch richten. Pull Request auf den main-Branch werden mit Hinweis auf den develop-Branch gelöscht.
 
 ## Lizenzen und Attribution
 
