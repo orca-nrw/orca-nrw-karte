@@ -578,13 +578,13 @@
     "name": "Hochschule Rhein-Waal",
     "koordinaten": [ 351, 47 ],
     "phase": 0,
-    "website": "https://elearning.hochschule-rhein-waal.de/orca-dh-nrw-netzwerkstelle/",
+    "website": "",
     "kontaktpersonen": [
       {
-        "name": "Sven-Niklas August",
-        "abteilung": "Hochschuldidaktik",
-        "mail": "sven-niklas.august@hochschule-rhein-waal.de",
-        "website": "https://elearning.hochschule-rhein-waal.de/orca-dh-nrw-netzwerkstelle/"
+        "name": "N.N.",
+        "abteilung": "",
+        "mail": "",
+        "website": ""
       }
      ],
     "policyVeroeffentlichung": "",
