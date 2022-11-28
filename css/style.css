@@ -32,8 +32,23 @@ iframe {
   border-radius: 12px;
 }
 
+iframe.combined {
+  border: none;
+  border-radius: 0;
+}
+
 code {
   font-size: smaller;
+}
+
+.grid,
+.grid-2col {
+  display: grid;
+  grid-column: span 2 / span 2;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  margin: 5px 0 0 0;
+  padding: 0;
 }
 
 .leaflet-container {
