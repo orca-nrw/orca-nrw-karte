@@ -25,11 +25,11 @@ h1 {
 hr {
   border: none;
   border-top: 1px solid black;
+  margin: 0.5rem auto;
 }
 
 iframe {
-  border: 3px solid;
-  border-radius: 12px;
+  border: 3px solid rgb(0, 43, 68);
 }
 
 iframe.combined {
@@ -41,14 +41,13 @@ code {
   font-size: smaller;
 }
 
-.grid,
-.grid-2col {
-  display: grid;
-  grid-column: span 2 / span 2;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 5px;
-  margin: 5px 0 0 0;
-  padding: 0;
+.hidden {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
 }
 
 .leaflet-container {
@@ -72,4 +71,50 @@ code {
 
 .legende span {
   position: relative;
+}
+
+.list-container {
+  width: 50%;
+  max-width: 350px;
+  height: 100%;
+  padding: 0px 5px;
+  overflow-y: auto;
+  border-right: 3px solid rgb(0, 43, 68);
+}
+
+.just-list {
+  padding: 0px 5px;
+  overflow-y: auto;
+}
+
+details.location-list {
+  font-size: 0.75rem;
+  font-family: "Mont", "Segoe UI", "Tahoma", sans-serif !important;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  background-color: rgb(0, 43, 68);
+}
+
+details[open]>summary {
+  margin-bottom: 0.5rem;
+}
+
+summary.location-list {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details>a {
+  color: white !important;
+}
+
+details>hr {
+  border-top: 3px solid rgb(169, 13, 0);
 }

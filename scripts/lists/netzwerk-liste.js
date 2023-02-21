@@ -1,11 +1,30 @@
+import {standortObjekt} from "../maps/netzwerk-karte.js";
+
+window.standortObjekt = standortObjekt;
+
 let fetchData = await fetch("./db/standorte.json");
 let standorte = await fetchData.json();
 
 let content = "";
 
+standorte.sort(byNameAscending);
+
+function byNameAscending(itemA, itemB) {
+  let nameA = itemA.name.toLowerCase();
+  let nameB = itemB.name.toLowerCase();
+
+  if (nameA < nameB) {
+    return -1;
+  } else if (nameA > nameB) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
 for (let standort of standorte) {
-  let summary = `<summary>${standort.name}</summary>`;
-  let website = `<b>Website:</b> <a href='${standort.website}' target='_blank'>${standort.website}</a>`;
+  let summary = `<summary class='location-list'>${standort.name}</summary>`;
+  let website = `<a href='${standort.website}' target='_blank'>Website</a>`;
 
   let listePersonen = "";
   let ueberschriftPersonen = "";
@@ -30,10 +49,15 @@ for (let standort of standorte) {
     policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
   }
 
+  let linkPopup = "";
+  if (document.title != "ORCA-Netzwerk und OER Policies an Hochschulen in NRW – Auflistung") {
+    linkPopup = ` | <a id="hello" href="#" onclick="standortObjekt['${standort.id}'].openPopup()">Auf Karte zeigen</a>`;
+  }
+
   const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
   const blockPolicy = "<hr><b>OER Policy</b><br>" + policyVeroeffentlichung + link;
 
-  content += "<details><p>" + summary + website + blockPersonen + blockPolicy + "</p></details>";
+  content += "<details class='location-list'>" + summary + website + linkPopup + blockPersonen + blockPolicy + "</details>";
 }
 
 document.getElementById("list").innerHTML = content;
