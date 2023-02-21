@@ -17,7 +17,7 @@ let overlayMaps = {
 layerControlErstellen(overlayMaps);
 
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
-const layers = [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort]
+const layers = [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort];
 let map = mapErstellen(layers);
 
 // Legende hinzufügen
@@ -37,7 +37,7 @@ let fetchData = await fetch("./db/standorte.json");
 let standorte = await fetchData.json();
 
 // Marker definieren
-let standortObjekt = [];
+export var standortObjekt = {};
 for (let standort of standorte) {
   // Phase und marker klären
   let phase;
@@ -68,7 +68,7 @@ for (let standort of standorte) {
   let listePersonen = "";
   let ueberschriftPersonen = "";
   if (standort.kontaktpersonen.length >= 1) {
-    ueberschriftPersonen = (standort.kontaktpersonen.length > 1) ? "<hr><b>ORCA-Netzwerkstellen</b>" : "<hr><b>ORCA-Netzwerkstelle</b>";
+    ueberschriftPersonen = (standort.kontaktpersonen.length > 1) ? "<hr><b>Netzwerkstelle ORCA.nrw</b>" : "<hr><b>Netzwerkstelle ORCA.nrw</b>";
     for (let person of standort.kontaktpersonen) {
       let name = (person.website) ? `<br><a href='${person.website}' target='_blank'>${person.name}</a>` : `<br>${person.name}`;
       let mail = (person.mail) ? ` <a href='mailto:${person.mail}'><i class="far fa-envelope"></i></a>` : "";
@@ -85,9 +85,9 @@ for (let standort of standorte) {
   let popup = L.responsivePopup().setContent(`${blockUeberschrift}${blockPersonen}${blockPolicy}`);
 
   // Alles zusammenführen und zur Karte hinzufügen
-  standortObjekt[standort.id] = L.circle(standort.koordinaten, marker);
-  standortObjekt[standort.id].addTo(map)
-  standortObjekt[standort.id].addTo(phase);
-  standortObjekt[standort.id].bindPopup(popup);
-  standortObjekt[standort.id].bindTooltip(standort.name);
+  standortObjekt[standort.id] = L.circle(standort.koordinaten, marker)
+    .addTo(map)
+    .addTo(phase)
+    .bindPopup(popup)
+    .bindTooltip(standort.name);
 }
