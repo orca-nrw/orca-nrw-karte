@@ -224,7 +224,7 @@
     "id": "dortmundTU",
     "name": "Technische Universität Dortmund",
     "koordinaten": [ 285, 238 ],
-    "phase": 0,
+    "phase": 1,
     "website": "",
     "kontaktpersonen": [
       {
@@ -409,10 +409,10 @@
     "policyLink": ""
   },
   {
-    "id": "koelnTU",
+    "id": "koelnTH",
     "name": "Technische Hochschule Köln",
     "koordinaten": [ 150, 165 ],
-    "phase": 1,
+    "phase": 4,
     "website": "https://www.th-koeln.de/",
     "kontaktpersonen": [
       {
@@ -428,8 +428,8 @@
         "website": "https://www.th-koeln.de/personen/guenther.straub/"
       }
     ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "policyVeroeffentlichung": "10.2022",
+    "policyLink": "https://www.th-koeln.de/hochschule/th-koeln-veroeffentlicht-neue-policies-zu-open-science-und-oer_98205.php"
   },
   {
     "id": "koelnSportHS",
