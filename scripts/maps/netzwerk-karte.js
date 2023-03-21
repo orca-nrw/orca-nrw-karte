@@ -83,7 +83,7 @@ for (let standort of standorte) {
   const blockPolicy = "<hr><b>OER Policy</b><br>" + policyVeroeffentlichung + link;
 
   // Popup definieren
-  let popup = L.responsivePopup().setContent(`${blockUeberschrift}${blockPersonen}${blockPolicy}`);
+  let popup = L.popup().setContent(`${blockUeberschrift}${blockPersonen}${blockPolicy}`);
 
   // Alles zusammenführen und zur Karte hinzufügen
   standortObjekt[standort.id] = L.circle(standort.koordinaten, marker)
