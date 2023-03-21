@@ -11,8 +11,8 @@ let overlayMaps = {
 layerControlErstellen(overlayMaps);
 
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
-const layers = [mapBorders, schreibberatung]
-let map = mapErstellen(layers);
+const layers = [mapBorders, schreibberatung];
+let map = await mapErstellen(layers);
 
 // Daten einlesen
 let fetchData = await fetch("./db/beratungsstellen.json");
@@ -47,7 +47,7 @@ for (let standort of standorte) {
   // Alles zusammenführen und zur Karte hinzufügen
   if (richtigeKategorie) {
     standortObjekt[standort.id] = L.circle(standort.koordinaten, marker);
-    standortObjekt[standort.id].addTo(map)
+    standortObjekt[standort.id].addTo(map);
     standortObjekt[standort.id].bindPopup(popup);
     standortObjekt[standort.id].bindTooltip(standort.name);
   }

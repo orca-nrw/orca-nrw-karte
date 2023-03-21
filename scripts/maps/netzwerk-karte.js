@@ -1,5 +1,6 @@
 import {mapErstellen, mapBorders, layerControlErstellen} from "../create-map.js";
 import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "../define-markers.js";
+import {createContent} from "../lists/netzwerk-liste.js";
 
 // Layer groups definieren
 let veroeffentlicht = L.layerGroup();
@@ -18,7 +19,7 @@ layerControlErstellen(overlayMaps);
 
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
 const layers = [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort];
-let map = mapErstellen(layers);
+let map = await mapErstellen(layers);
 
 // Legende hinzufügen
 let legende = L.control({position: "bottomright"});
@@ -31,6 +32,12 @@ legende.onAdd = function (map) {
   return div;
 };
 legende.addTo(map);
+
+// Sidebar
+if (!document.getElementById("list")) {
+  let sidebar = "<div class='just-list'>" + await createContent() + "</div>";
+  L.control.slideMenu(sidebar).addTo(map);
+}
 
 // Daten einlesen
 let fetchData = await fetch("./db/standorte.json");

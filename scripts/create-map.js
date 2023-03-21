@@ -1,19 +1,25 @@
 // Overlays definieren
 const bounds = [[0, 0], [524, 524]];
 export const mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
-const mapNoBorders = L.imageOverlay('img/orca-nrw-map_no-borders.svg', bounds);
 
-let baseMaps = {
-  "Mit Stadtgrenzen": mapBorders,
-  "Ohne Stadtgrenzen": mapNoBorders
-};
+// Falls mehrere Karten genutzt werden, hier hinzufügen und L.control.layers(baseMaps, overlayMaps) ergänzen
+// let baseMaps = {
+//   "NRW": mapBorders,
+// };
 
 let layerControl;
-export function layerControlErstellen(overlayMaps) {layerControl = L.control.layers(baseMaps, overlayMaps);};
-let attribution = L.control.attribution({prefix: false, position: "bottomleft"}).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel & Frank Homp");
+export function layerControlErstellen(overlayMaps) {
+  layerControl = L.control.layers(null, overlayMaps);
+};
+
+let attribution = L.control.attribution({
+  prefix: false,
+  position: "bottomleft"
+}
+).addAttribution("<a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0</a> Marko Wenzel & Frank Homp");
 
 // Karte erstellen
-export function mapErstellen(layers) {
+export async function mapErstellen(layers) {
   let map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: 0,
