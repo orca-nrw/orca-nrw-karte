@@ -60,7 +60,7 @@ export async function createContent(standortObjekt) {
 
     let linkPopup = "";
     if (document.title != "ORCA-Netzwerk und OER Policies an Hochschulen in NRW – Auflistung") {
-      linkPopup = ` | <a id="hello" href="#" onclick="standortObjekt['${standort.id}'].openPopup(); map.setView([standortObjekt['${standort.id}']._latlng.lat, standortObjekt['${standort.id}']._latlng.lng + centerMod], 0);">Auf Karte zeigen</a>`;
+      linkPopup = ` | <a id="openPopupLink" href="#" onclick="standortObjekt['${standort.id}'].openPopup(); map.setView([standortObjekt['${standort.id}']._latlng.lat, standortObjekt['${standort.id}']._latlng.lng + centerMod], 0); return false">Auf Karte zeigen</a>`;
     }
 
     const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
