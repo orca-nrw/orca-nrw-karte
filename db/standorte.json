@@ -108,10 +108,10 @@
         "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
       },
       {
-        "name": "Dr. Phil. André Müller",
+        "name": "Matthias Staupe",
         "abteilung": "Fachbereich Wirtschaft",
         "mail": "matthias.staupe@hs-bochum.de",
-        "website": "https://www.hochschule-bochum.de/personen/"
+        "website": "https://www.hochschule-bochum.de/fbw/team/staupe/"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -211,7 +211,7 @@
     "website": "https://www.fh-dortmund.de/",
     "kontaktpersonen": [
       {
-        "name": "Sina Nitzsche",
+        "name": "Dr. Sina Nitzsche",
         "abteilung": "Zukunftswerkstatt (Hochschuldidaktik)",
         "mail": "sina.nitzsche@fh-dortmund.de",
         "website": "https://www.fh-dortmund.de/personen/Sina-Nitzsche/index.php"
@@ -245,7 +245,7 @@
     "website": "https://www.hhu.de/",
     "kontaktpersonen": [
       {
-        "name": "Elisabeth Scherer",
+        "name": "Dr. Elisabeth Scherer",
         "abteilung": "Hochschuldidaktik",
         "mail": "scherer@hhu.de",
         "website": "https://www.elearning.hhu.de/oer-an-der-hhu"
@@ -291,14 +291,7 @@
     "koordinaten": [ 210, 143 ],
     "phase": 0,
     "website": "https://www.rsh-duesseldorf.de/",
-    "kontaktpersonen": [
-      {
-        "name": "Anne Krüger",
-        "abteilung": "Hochschuldidaktik",
-        "mail": "anne.krueger@rsh-duesseldorf.de",
-        "website": "https://www.rsh-duesseldorf.de/lehrentwicklung/team/"
-      }
-    ],
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
@@ -309,7 +302,7 @@
     "phase": 3,
     "website": "",
     "kontaktpersonen": [
-      { "name": "Julia Liebscher",
+      { "name": "Dr. Julia Liebscher",
         "abteilung": "Zentrum für Hochschulqualitätsentwicklung",
         "mail": "julia.liebscher@uni-due.de",
         "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
@@ -328,13 +321,19 @@
     "name": "Folkwang Universität der Künste",
     "koordinaten": [ 260, 173 ],
     "phase": 0,
-    "website": "",
+    "website": "https://www.folkwang-uni.de/home/hochschule/organisation/verwaltung-technik/dezernat-studium-und-internationales/hochschul-und-mediendidaktik/",
     "kontaktpersonen": [
       {
-        "name": "Robin Schütgens",
+        "name": "Robin Schütgens, M.A.",
         "abteilung": "Hochschuldidaktik",
         "mail": "robin.schuetgens@folkwang-uni.de",
-        "website": "https://www.folkwang-uni.de/home/hochschule/organisation/verwaltung-technik/dezernat-studium-und-internationales/hochschul-und-mediendidaktik/"
+        "website": "https://www.folkwang-uni.de/home/hochschule/organisation/rektorat/mitarbeiter/personen-detail/adm/robin-schuetgens-ma/"
+      },
+      {
+        "name": "Johanna Töpfer",
+        "abteilung": "Hochschuldidaktik",
+        "mail": "johanna.toepfer@folkwang-uni.de",
+        "website": "https://www.folkwang-uni.de/home/hochschule/beratung/beratungsnetzwerk/kontakt/personen-detail/adm/johanna-toepfer/"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -513,7 +512,7 @@
         "website": "https://www.uni-muenster.de/ZHL/personen/ouden.html"
       },
       {
-        "name": "SARAH SCHOTEMEIER",
+        "name": "Sarah Schotemeier",
         "abteilung": "Hochschuldidaktik",
         "mail": "s.schotemeier@uni-muenster.de",
         "website": "https://www.uni-muenster.de/ZHL/personen/sschotemeier.html"
@@ -596,14 +595,7 @@
     "koordinaten": [ 258, 151 ],
     "phase": 0,
     "website": "https://www.hochschule-ruhr-west.de/",
-    "kontaktpersonen": [
-      {
-        "name": "Melina Wunderlich",
-        "abteilung": "",
-        "mail": "melina.wunderlich@hs-ruhrwest.de",
-        "website": "https://www.hochschule-ruhr-west.de/die-hrw/servicebereich/dezernat-iii/personal/?PHPSESSID=c17eea60feca0db4324591526bf1f710&tx_meaddress_addressmanagement%5B%40widget_0%5D%5BcurrentPage%5D=5&cHash=54bd88482d269805833e40de53636da0"
-      }
-    ],
+    "kontaktpersonen": [ ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
