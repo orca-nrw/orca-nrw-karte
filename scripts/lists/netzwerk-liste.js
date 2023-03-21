@@ -15,8 +15,6 @@ export async function createContent(standortObjekt) {
 
   standorte.sort(byNameAscending);
 
-  console.log(standortObjekt);
-
   function byNameAscending(itemA, itemB) {
     let nameA = itemA.name.toLowerCase();
     let nameB = itemB.name.toLowerCase();
