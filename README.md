@@ -1,6 +1,6 @@
 # orca-nrw-karte
 
-Version: 0.6.1. Stand: 2023-03-06.
+Version: 0.7.0. Stand: 2023-03-21.
 
 Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
@@ -58,3 +58,5 @@ Pull Requests bitte auf den develop-Branch richten. Pull Request auf den main-Br
 [Simple.css](https://simplecss.org) by Kev Quirk is licensed under the MIT license.
 
 [Leaflet](https://leafletjs.com) by Vladimir Agafonkin is licensed under the BSD-2-Clause license.
+
+[Leaflet.SlideMenu](https://github.com/unbam/Leaflet.SlideMenu) by Masashi Takeshita is licensed under the MIT License.
