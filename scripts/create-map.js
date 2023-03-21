@@ -25,7 +25,7 @@ export async function mapErstellen(layers) {
     minZoom: 0,
     zoomSnap: 1,
     layers: layers,
-    maxBounds: bounds,
+    maxBounds: [[-500, -500], [1024, 1024]],
     doubleClickZoom: false,
     scrollWheelZoom: false
   });
