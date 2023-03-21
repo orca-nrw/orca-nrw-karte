@@ -19,7 +19,7 @@ layerControlErstellen(overlayMaps);
 
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
 const layers = [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort];
-let map = await mapErstellen(layers);
+export const map = await mapErstellen(layers);
 
 // Legende hinzufügen
 let legende = L.control({position: "bottomright"});
@@ -32,12 +32,6 @@ legende.onAdd = function (map) {
   return div;
 };
 legende.addTo(map);
-
-// Sidebar
-if (!document.getElementById("list")) {
-  let sidebar = "<div class='just-list'>" + await createContent() + "</div>";
-  L.control.slideMenu(sidebar).addTo(map);
-}
 
 // Daten einlesen
 let fetchData = await fetch("./db/standorte.json");
@@ -97,4 +91,10 @@ for (let standort of standorte) {
     .addTo(phase)
     .bindPopup(popup)
     .bindTooltip(standort.name);
+}
+
+// Sidebar
+if (!document.getElementById("list")) {
+  let sidebar = "<div class='just-list'>" + await createContent(standortObjekt) + "</div>";
+  L.control.slideMenu(sidebar).addTo(map);
 }

@@ -1,17 +1,21 @@
-import {standortObjekt} from "../maps/netzwerk-karte.js";
+import {map, standortObjekt} from "../maps/netzwerk-karte.js";
 
 if (document.getElementById("list")) {
-  document.getElementById("list").innerHTML = await createContent();
+  document.getElementById("list").innerHTML = await createContent(standortObjekt);
 }
 
-export async function createContent() {
+export async function createContent(standortObjekt) {
 
   window.standortObjekt = standortObjekt;
+  window.map = map;
+  window.centerMod = (document.getElementById("list")) ? 0 : -150;
 
   let fetchData = await fetch("./db/standorte.json");
   let standorte = await fetchData.json();
 
   standorte.sort(byNameAscending);
+
+  console.log(standortObjekt);
 
   function byNameAscending(itemA, itemB) {
     let nameA = itemA.name.toLowerCase();
@@ -56,7 +60,7 @@ export async function createContent() {
 
     let linkPopup = "";
     if (document.title != "ORCA-Netzwerk und OER Policies an Hochschulen in NRW – Auflistung") {
-      linkPopup = ` | <a id="hello" href="#" onclick="standortObjekt['${standort.id}'].openPopup()">Auf Karte zeigen</a>`;
+      linkPopup = ` | <a id="hello" href="#" onclick="standortObjekt['${standort.id}'].openPopup(); map.setView([standortObjekt['${standort.id}']._latlng.lat, standortObjekt['${standort.id}']._latlng.lng + centerMod], 0);">Auf Karte zeigen</a>`;
     }
 
     const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
