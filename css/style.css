@@ -87,6 +87,12 @@ code {
   overflow-y: auto;
 }
 
+.sidebar {
+  padding: 0px 5px;
+  overflow-y: auto;
+  border-right: 3px solid rgb(0, 43, 68);
+}
+
 details.location-list {
   font-size: 0.75rem;
   font-family: "Mont", "Segoe UI", "Tahoma", sans-serif !important;
