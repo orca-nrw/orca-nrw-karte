@@ -1,7 +1,7 @@
 // Overlays definieren
 const bounds = [[0, 0], [524, 524]];
 export const mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
-export const mapLabels = L.imageOverlay('img/orca-nrw-map_labels.svg', bounds);
+export const mapLabels = L.imageOverlay('img/orca-nrw-map_borders_labels.svg', bounds);
 
 // Falls mehrere Karten genutzt werden, hier hinzufügen und L.control.layers(baseMaps, overlayMaps) ergänzen
 let baseMaps = {
