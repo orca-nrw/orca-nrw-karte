@@ -13,7 +13,7 @@ let overlayMaps = {
   "<span style='color: rgb(0,104,55);'>&#x25CF;</span> Veröffentlicht": veroeffentlicht,
   "<span style='color: rgb(249,147,28);'>&#x25CF;</span> Gremienphase": gremienphase,
   "<span style='color: rgb(42,168,226);'>&#x25CF;</span> Entwurfsphase": entwurfsphase,
-  "<span style='color: rgb(192,192,192);'>&#x25CF;</span> Noch keine Policy": hochschulstandort
+  "<span style='color: rgb(128,128,128);'>&#x25CF;</span> Noch keine Policy": hochschulstandort
 };
 layerControlErstellen(overlayMaps);
 
@@ -28,7 +28,7 @@ legende.onAdd = function (map) {
   div.innerHTML += "<span style='color: rgb(0,104,55);'>&#x25CF; </span><span>Veröffentlicht</span>";
   div.innerHTML += "<br><span style='color: rgb(249,147,28);'>&#x25CF; </span><span>Gremienphase</span>";
   div.innerHTML += "<br><span style='color: rgb(42,168,226);'>&#x25CF; </span><span>Entwurfsphase</span>";
-  div.innerHTML += "<br><span style='color: rgb(192,192,192);'>&#x25CF; </span><span>Noch keine Policy</span>";
+  div.innerHTML += "<br><span style='color: rgb(128,128,128);'>&#x25CF; </span><span>Noch keine Policy</span>";
   return div;
 };
 legende.addTo(map);

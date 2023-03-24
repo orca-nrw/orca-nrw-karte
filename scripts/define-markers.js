@@ -21,8 +21,8 @@ export const gruenerPunkt = {
 }
 
 export const grauerPunkt = {
-  color: 'rgb(192,192,192)',
-  fillColor: 'rgb(192,192,192)',
+  color: 'rgb(128,128,128)',
+  fillColor: 'rgb(128,128,128)',
   fillOpacity: 1,
   radius: 1.5
 }
