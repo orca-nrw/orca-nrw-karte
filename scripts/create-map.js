@@ -1,15 +1,17 @@
 // Overlays definieren
 const bounds = [[0, 0], [524, 524]];
 export const mapBorders = L.imageOverlay('img/orca-nrw-map_borders.svg', bounds);
+export const mapLabels = L.imageOverlay('img/orca-nrw-map_labels.svg', bounds);
 
 // Falls mehrere Karten genutzt werden, hier hinzufügen und L.control.layers(baseMaps, overlayMaps) ergänzen
-// let baseMaps = {
-//   "NRW": mapBorders,
-// };
+let baseMaps = {
+  "Karte ohne Label": mapBorders,
+  "Karte mit Label": mapLabels
+};
 
 let layerControl;
 export function layerControlErstellen(overlayMaps) {
-  layerControl = L.control.layers(null, overlayMaps);
+  layerControl = L.control.layers(baseMaps, overlayMaps);
 };
 
 let attribution = L.control.attribution({
@@ -22,12 +24,12 @@ let attribution = L.control.attribution({
 export async function mapErstellen(layers) {
   let map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: 0,
+    minZoom: -1,
     zoomSnap: 1,
     layers: layers,
     maxBounds: [[-500, -500], [1024, 1024]],
     doubleClickZoom: false,
-    scrollWheelZoom: false
+    scrollWheelZoom: true
   });
 
   layerControl.addTo(map);
