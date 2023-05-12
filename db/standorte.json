@@ -2,7 +2,10 @@
   {
     "id": "aachenFH",
     "name": "Fachhochschule Aachen",
-    "koordinaten": [ 110, 30 ],
+    "koordinaten": [
+      110,
+      30
+    ],
     "phase": 0,
     "website": "https://www.fh-aachen.de",
     "kontaktpersonen": [
@@ -25,9 +28,12 @@
   {
     "id": "aachenRWTH",
     "name": "RWTH Aachen",
-    "koordinaten": [ 110, 38 ],
+    "koordinaten": [
+      110,
+      38
+    ],
     "phase": 0,
-    "website": "https://www.rwth-aachen.de/cms/~a/root/",
+    "website": "https://exact.cls.rwth-aachen.de/cms/cls-exact/Services-und-Projekte/ExAcT/~wrrml/ORCA-nrw/",
     "kontaktpersonen": [
       {
         "name": "Dr. Nicole Hützen",
@@ -51,7 +57,10 @@
   {
     "id": "bielefeldUni",
     "name": "Universität Bielefeld",
-    "koordinaten": [ 400, 385 ],
+    "koordinaten": [
+      400,
+      385
+    ],
     "phase": 1,
     "website": "https://uni-bielefeld.de",
     "kontaktpersonen": [
@@ -73,32 +82,38 @@
   },
   {
     "id": "bielefeldFH",
-    "name": "Fachhochschule Bielefeld",
-    "koordinaten": [ 400, 393 ],
+    "name": "Hochschule Bielefeld",
+    "koordinaten": [
+      400,
+      393
+    ],
     "phase": 3,
     "kontaktpersonen": [
       {
         "name": "Alexander Kobusch",
         "abteilung": "Hochschulbibliothek",
-        "mail": "alexander.kobusch@fh-bielefeld.de",
-        "website": "https://www.fh-bielefeld.de/personenverzeichnis/alexander-kobusch"
+        "mail": "alexander.kobusch@hsbi.de",
+        "website": "https://www.hsbi.de/personenverzeichnis/alexander-kobusch"
       },
       {
         "name": "Linda Halm",
         "abteilung": "Hochschulbibliothek",
-        "mail": "linda.halm@fh-bielefeld.de",
-        "website": "https://www.fh-bielefeld.de/personenverzeichnis/linda-halm"
+        "mail": "linda.halm@hsbi.de",
+        "website": "https://www.hsbi.de/personenverzeichnis/linda-halm"
       }
     ],
-    "website": "https://www.fh-bielefeld.de/bib/personen-und-projekte/orcanrw",
+    "website": "https://www.hsbi.de/learningservices/lehrende/oer",
     "policyVeroeffentlichung": "30.03.2022",
-    "policyLink": "https://www.fh-bielefeld.de/learningservices/lehrende/oer/policy"
+    "policyLink": "https://www.hsbi.de/learningservices/lehrende/oer/policy"
   },
   {
     "id": "bochumHS",
     "name": "Hochschule Bochum",
-    "koordinaten": [ 263, 194 ],
-    "phase": 0,
+    "koordinaten": [
+      263,
+      194
+    ],
+    "phase": 1,
     "website": "https://www.hochschule-bochum.de/",
     "kontaktpersonen": [
       {
@@ -106,12 +121,6 @@
         "abteilung": "Hochschuldidaktik",
         "mail": "andre0.mueller@hs-bochum.de",
         "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
-      },
-      {
-        "name": "Matthias Staupe",
-        "abteilung": "Fachbereich Wirtschaft",
-        "mail": "matthias.staupe@hs-bochum.de",
-        "website": "https://www.hochschule-bochum.de/fbw/team/staupe/"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -120,16 +129,24 @@
   {
     "id": "bochumHSGesundheit",
     "name": "Hochschule für Gesundheit Bochum",
-    "koordinaten": [ 271, 202 ],
+    "koordinaten": [
+      271,
+      202
+    ],
     "phase": 3,
-    "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
+    "website": "https://www.hs-gesundheit.de/",
     "kontaktpersonen": [
       {
-        "name": "André Müller",
-        "abteilung": "Hochschuldidaktik",
-        "mail": "andre0.mueller@hs-bochum.de",
-        "website": "https://www.hochschule-bochum.de/isd/angebote-des-isd/e-learning/offene-bildungsmaterialien-oer/orca-netzwerkstelle/"
-
+        "name": "Christian Funk",
+        "abteilung": "",
+        "mail": "",
+        "website": "https://www.hs-gesundheit.de/praesidium/qualitaet-in-studium-und-lehre/orca-an-der-hs-gesundheit"
+      },
+      {
+        "name": "Christina Josupeit",
+        "abteilung": "",
+        "mail": "",
+        "website": "https://www.hs-gesundheit.de/praesidium/qualitaet-in-studium-und-lehre/orca-an-der-hs-gesundheit"
       }
     ],
     "policyVeroeffentlichung": "28.06.2022",
@@ -138,7 +155,10 @@
   {
     "id": "bochumRuhrUni",
     "name": "Ruhr-Universität Bochum",
-    "koordinaten": [ 271, 194 ],
+    "koordinaten": [
+      271,
+      194
+    ],
     "phase": 3,
     "website": "http://www.uv.rub.de/dezernat1/amtliche/ab1469.pdf",
     "kontaktpersonen": [
@@ -155,7 +175,10 @@
   {
     "id": "bonnRheinischeFWUni",
     "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
-    "koordinaten": [ 90, 183 ],
+    "koordinaten": [
+      90,
+      183
+    ],
     "phase": 0,
     "website": "https://www.bzh.uni-bonn.de/de/wer-wir-sind/team-qualifizierung",
     "kontaktpersonen": [
@@ -165,14 +188,17 @@
         "mail": "andreasova@uni-bonn.de",
         "website": "https://www.bzh.uni-bonn.de/personenverzeichnis"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "bonnRheinSiegHS",
     "name": "Hochschule Bonn-Rhein-Sieg",
-    "koordinaten": [ 115, 195 ],
+    "koordinaten": [
+      115,
+      195
+    ],
     "phase": 1,
     "website": "https://www.h-brs.de/de",
     "kontaktpersonen": [
@@ -189,7 +215,10 @@
   {
     "id": "detmoldHSMusik",
     "name": "Hochschule für Musik Detmold",
-    "koordinaten": [ 382, 430 ],
+    "koordinaten": [
+      382,
+      430
+    ],
     "phase": 0,
     "website": "",
     "kontaktpersonen": [
@@ -206,7 +235,10 @@
   {
     "id": "dortmundFH",
     "name": "Fachhochschule Dortmund",
-    "koordinaten": [ 285, 230 ],
+    "koordinaten": [
+      285,
+      230
+    ],
     "phase": 3,
     "website": "https://www.fh-dortmund.de/",
     "kontaktpersonen": [
@@ -223,7 +255,10 @@
   {
     "id": "dortmundTU",
     "name": "Technische Universität Dortmund",
-    "koordinaten": [ 285, 238 ],
+    "koordinaten": [
+      285,
+      238
+    ],
     "phase": 1,
     "website": "",
     "kontaktpersonen": [
@@ -240,7 +275,10 @@
   {
     "id": "duesseldorfHHUni",
     "name": "Heinrich-Heine-Universität Düsseldorf",
-    "koordinaten": [ 218, 135 ],
+    "koordinaten": [
+      218,
+      135
+    ],
     "phase": 3,
     "website": "https://www.hhu.de/",
     "kontaktpersonen": [
@@ -257,7 +295,10 @@
   {
     "id": "duesseldorfHS",
     "name": "Hochschule Düsseldorf",
-    "koordinaten": [ 218, 143 ],
+    "koordinaten": [
+      218,
+      143
+    ],
     "phase": 0,
     "website": "https://www.hs-duesseldorf.de/",
     "kontaktpersonen": [
@@ -274,7 +315,10 @@
   {
     "id": "duesseldorfKunstakademie",
     "name": "Kunstakademie Düsseldorf",
-    "koordinaten": [ 210, 135 ],
+    "koordinaten": [
+      210,
+      135
+    ],
     "phase": 0,
     "website": "",
     "kontaktpersonen": [
@@ -288,26 +332,41 @@
   {
     "id": "duesseldorfRobertSchumannHS",
     "name": "Robert Schumann Hochschule Düsseldorf",
-    "koordinaten": [ 210, 143 ],
+    "koordinaten": [
+      210,
+      143
+    ],
     "phase": 0,
     "website": "https://www.rsh-duesseldorf.de/",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [
+      {
+        "name": "Hochschul- und Lehrentwicklung",
+        "abteilung": "",
+        "mail": "",
+        "website": "https://www.rsh-duesseldorf.de/musikhochschule/wir-ueber-uns/hochschul-und-lehrentwicklung/team"
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "duisburgEssenUni",
     "name": "Universität Duisburg-Essen",
-    "koordinaten": [ 265, 132 ],
+    "koordinaten": [
+      265,
+      132
+    ],
     "phase": 3,
     "website": "",
     "kontaktpersonen": [
-      { "name": "Dr. Julia Liebscher",
+      {
+        "name": "Dr. Julia Liebscher",
         "abteilung": "Zentrum für Hochschulqualitätsentwicklung",
         "mail": "julia.liebscher@uni-due.de",
         "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
       },
-      { "name": "Laura Schaffeld",
+      {
+        "name": "Laura Schaffeld",
         "abteilung": "Zentrum für Informations- und Mediendienste",
         "mail": "laura.schaffeld@uni-due.de",
         "website": "https://www.uni-due.de/e-learning/open_resources_campus.nrw.php"
@@ -319,7 +378,10 @@
   {
     "id": "essenFolkwangUniKünste",
     "name": "Folkwang Universität der Künste",
-    "koordinaten": [ 260, 173 ],
+    "koordinaten": [
+      260,
+      173
+    ],
     "phase": 0,
     "website": "https://www.folkwang-uni.de/home/hochschule/organisation/verwaltung-technik/dezernat-studium-und-internationales/hochschul-und-mediendidaktik/",
     "kontaktpersonen": [
@@ -342,7 +404,10 @@
   {
     "id": "hagenFernUni",
     "name": "Fernuniversität in Hagen",
-    "koordinaten": [ 245, 240 ],
+    "koordinaten": [
+      245,
+      240
+    ],
     "phase": 0,
     "website": "https://www.fernuni-hagen.de/",
     "kontaktpersonen": [
@@ -359,7 +424,10 @@
   {
     "id": "hammLippstadtHS",
     "name": "Hochschule Hamm-Lippstadt",
-    "koordinaten": [ 318, 287 ],
+    "koordinaten": [
+      318,
+      287
+    ],
     "phase": 0,
     "website": "https://www.hshl.de/hochschule-hamm-lippstadt/profil/digitalisierung/",
     "kontaktpersonen": [
@@ -367,7 +435,7 @@
         "name": "Henrike Heckmann",
         "abteilung": "",
         "mail": "henrike.heckmann@hshl.de",
-        "website": "https://www.hshl.de/hochschule-hamm-lippstadt/profil/digitalisierung/"
+        "website": "https://www.hshl.de/studieren/wichtige-service-einrichtungen-und-beratungsangebote/zentrum-fuer-wissensmanagement/"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -376,7 +444,10 @@
   {
     "id": "koelnHSMusikTanz",
     "name": "Hochschule für Musik und Tanz Köln",
-    "koordinaten": [ 142, 157 ],
+    "koordinaten": [
+      142,
+      157
+    ],
     "phase": 0,
     "website": "",
     "kontaktpersonen": [
@@ -386,14 +457,17 @@
         "mail": "gabi.reichardt@hfmt-koeln.de",
         "website": "https://www.hfmt-koeln.de/mitarbeiter/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "koelnKunsthochschuleMedien",
     "name": "Kunsthochschule für Medien Köln",
-    "koordinaten": [ 142, 165 ],
+    "koordinaten": [
+      142,
+      165
+    ],
     "phase": 0,
     "website": "",
     "kontaktpersonen": [
@@ -403,14 +477,17 @@
         "mail": "netzwerk@orca.nrw",
         "website": "https://www.orca.nrw/ueber-uns"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "koelnTH",
     "name": "Technische Hochschule Köln",
-    "koordinaten": [ 150, 165 ],
+    "koordinaten": [
+      150,
+      165
+    ],
     "phase": 3,
     "website": "https://www.th-koeln.de/",
     "kontaktpersonen": [
@@ -433,7 +510,10 @@
   {
     "id": "koelnSportHS",
     "name": "Deutsche Sporthochschule Köln",
-    "koordinaten": [ 150, 157 ],
+    "koordinaten": [
+      150,
+      157
+    ],
     "phase": 1,
     "website": "https://www.dshs-koeln.de/",
     "kontaktpersonen": [
@@ -450,7 +530,10 @@
   {
     "id": "koelnUni",
     "name": "Universität zu Köln",
-    "koordinaten": [ 150, 173 ],
+    "koordinaten": [
+      150,
+      173
+    ],
     "phase": 0,
     "website": "https://portal.uni-koeln.de/digital-education/offene-bildungsmaterialien",
     "kontaktpersonen": [
@@ -460,33 +543,39 @@
         "mail": "m.spaude@uni-koeln.de",
         "website": "https://portal.uni-koeln.de/digital-education/offene-bildungsmaterialien"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "muensterFH",
-    "name": "Fachhochschule Münster",
-    "koordinaten": [ 380, 254 ],
+    "name": "FH Münster",
+    "koordinaten": [
+      380,
+      254
+    ],
     "phase": 0,
     "website": "https://www.fh-muenster.de/wandelwerk/index.php",
     "kontaktpersonen": [
       {
         "name": "Svenja Gödecke",
         "abteilung": "",
-        "mail": "svenja.goedeckefh-muensterde",
+        "mail": "svenja.goedecke@fh-muenster.de",
         "website": "https://www.fh-muenster.de/wandelwerk/ansprechpartner.php?pId=13397&orga=54&m_list_id=2&p_list_id=7"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "muensterKunstakademie",
     "name": "Kunstakademie Münster",
-    "koordinaten": [ 388, 262 ],
+    "koordinaten": [
+      388,
+      262
+    ],
     "phase": 0,
-    "website": "https://www.kunstakademie-muenster.de/personen/personen-a-z/s/stabsstelle-presse-kommunikation-medien-1",
+    "website": "https://www.kunstakademie-muenster.de/aktuell",
     "kontaktpersonen": [
       {
         "name": "Sabine Funk",
@@ -494,14 +583,17 @@
         "mail": "sfunk@kunstakademie-muenster.de",
         "website": "https://www.kunstakademie-muenster.de/personen/personen-a-z/s/stabsstelle-presse-kommunikation-medien-1"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "muensterWestfaelischeWilhelmsUni",
     "name": "Westfälische Wilhelms-Universität Münster",
-    "koordinaten": [ 388, 254 ],
+    "koordinaten": [
+      388,
+      254
+    ],
     "phase": 0,
     "website": "https://www.uni-muenster.de/ZHL/learnwebundco/landesportal-orcanrw.html",
     "kontaktpersonen": [
@@ -517,14 +609,17 @@
         "mail": "s.schotemeier@uni-muenster.de",
         "website": "https://www.uni-muenster.de/ZHL/personen/sschotemeier.html"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "niederrheinHS",
     "name": "Hochschule Niederrhein",
-    "koordinaten": [ 243, 107 ],
+    "koordinaten": [
+      243,
+      107
+    ],
     "phase": 3,
     "website": "https://www.hs-niederrhein.de/startseite/",
     "kontaktpersonen": [
@@ -541,7 +636,10 @@
   {
     "id": "owlTHU",
     "name": "Technische Hochschule Ostwestphalen-Lippe",
-    "koordinaten": [ 390, 430 ],
+    "koordinaten": [
+      390,
+      430
+    ],
     "phase": 0,
     "website": "https://www.th-owl.de/cm/campus/all/unit.asp?gguid=0x54935681198F9B48BE895C172A9F68EF&tguid=0x7794D157624BAB46B7248BA8BEF7F5BB",
     "kontaktpersonen": [
@@ -551,15 +649,18 @@
         "mail": "nicole.dobosz@th-owl.de",
         "website": "https://www.th-owl.de/cm/campus/all/lecturer.asp?gguid=0x9737BCF021A34746BF236D40FA671712&unitgguid=0x54935681198F9B48BE895C172A9F68EF&backtounit=0x54935681198F9B48BE895C172A9F68EF&tguid=0x7794D157624BAB46B7248BA8BEF7F5BB&lang=de"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "paderbornUni",
     "name": "Universität Paderborn",
-    "koordinaten": [ 330, 420 ],
-    "phase": 0,
+    "koordinaten": [
+      330,
+      420
+    ],
+    "phase": 2,
     "website": "https://www.uni-paderborn.de/lehre/lehrforschungsverbuende/dh-nrw-projekte/landesportal",
     "kontaktpersonen": [
       {
@@ -568,41 +669,50 @@
         "mail": "tassja.weber@upb.de",
         "website": "https://www.uni-paderborn.de/person/89571"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "rheinWaalHS",
     "name": "Hochschule Rhein-Waal",
-    "koordinaten": [ 351, 47 ],
-    "phase": 0,
+    "koordinaten": [
+      351,
+      47
+    ],
+    "phase": 1,
     "website": "https://www.hochschule-rhein-waal.de",
     "kontaktpersonen": [
       {
         "name": "Carmen Lewa",
         "abteilung": "Hochschuldididaktik",
         "mail": "carmen.lewa@hochschule-rhein-waal.de",
-        "website": "https://elearning.hochschule-rhein-waal.de/fakultaetsuebergreifendes-team-e-didaktik/?doing_wp_cron=1669292774.3580749034881591796875"
+        "website": "https://www.hochschule-rhein-waal.de/de/search/people/Carmen"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "ruhrWestHS",
     "name": "Hochschule Ruhr-West",
-    "koordinaten": [ 258, 151 ],
+    "koordinaten": [
+      258,
+      151
+    ],
     "phase": 0,
     "website": "https://www.hochschule-ruhr-west.de/",
-    "kontaktpersonen": [ ],
+    "kontaktpersonen": [],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "siegenUni",
     "name": "Universität Siegen",
-    "koordinaten": [ 145, 321 ],
+    "koordinaten": [
+      145,
+      321
+    ],
     "phase": 2,
     "website": "https://zfh.uni-siegen.de/dh-nrw/orca/index.html",
     "kontaktpersonen": [
@@ -619,7 +729,10 @@
   {
     "id": "suedwestfalenFH",
     "name": "Fachhochschule Südwestfalen",
-    "koordinaten": [ 249, 265 ],
+    "koordinaten": [
+      249,
+      265
+    ],
     "phase": 0,
     "website": "https://www.fh-swf.de/cms/orca_nrw/",
     "kontaktpersonen": [
@@ -629,14 +742,17 @@
         "mail": "langhammer.anny@fh-swf.de",
         "website": "https://www.fh-swf.de/de/ueber_uns/beschaeftigte_1/verwaltungunddezernat/dezernat2/sg21/index.php"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "westfaelischeHS",
     "name": "Westfälische Hochschule",
-    "koordinaten": [ 288, 180 ],
+    "koordinaten": [
+      288,
+      180
+    ],
     "phase": 0,
     "website": "https://www.w-hs.de/service/informationen-zur-person/person/niemann/",
     "kontaktpersonen": [
@@ -646,14 +762,17 @@
         "mail": "andrea.niemann@w-hs.de",
         "website": "https://www.w-hs.de/service/informationen-zur-person/person/niemann/"
       }
-     ],
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
   {
     "id": "wuppertalBergischeUni",
     "name": "Bergische Universität Wuppertal",
-    "koordinaten": [ 220, 190 ],
+    "koordinaten": [
+      220,
+      190
+    ],
     "phase": 0,
     "website": "https://www.uni-wuppertal.de/de/",
     "kontaktpersonen": [
