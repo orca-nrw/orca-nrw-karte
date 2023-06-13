@@ -3,35 +3,50 @@ import {grauerPunkt, blauerPunkt, orangerPunkt, gruenerPunkt} from "../define-ma
 import {createContent} from "../lists/netzwerk-liste.js";
 
 // Layer groups definieren
-let veroeffentlicht = L.layerGroup();
-let gremienphase = L.layerGroup();
-let entwurfsphase = L.layerGroup();
+let oerPolicyStatus = L.layerGroup();
 let hochschulstandort = L.layerGroup();
 
 // Layer-Kontrollen erstellen
 let overlayMaps = {
-  "<span style='color: rgb(0,104,55);'>&#x25CF;</span> Veröffentlicht": veroeffentlicht,
-  "<span style='color: rgb(249,147,28);'>&#x25CF;</span> Gremienphase": gremienphase,
-  "<span style='color: rgb(42,168,226);'>&#x25CF;</span> Entwurfsphase": entwurfsphase,
-  "<span style='color: rgb(192,192,192);'>&#x25CF;</span> Noch keine Policy": hochschulstandort
+  "OER Policy Status": oerPolicyStatus
 };
 layerControlErstellen(overlayMaps);
 
+let params;
+if (location.href.includes("?")) {
+  params = location.href.split("?")[1].split("&");
+}
+const oerPolicyDefault = (params?.includes("oer-policy-default=false")) ? false : true;
+
+
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
-const layers = [mapBorders, veroeffentlicht, gremienphase, entwurfsphase, hochschulstandort];
+const layers = [mapBorders, hochschulstandort];
+if (oerPolicyDefault) {layers.push(oerPolicyStatus);};
 export const map = await mapErstellen(layers);
 
-// Legende hinzufügen
+// Legenden hinzufügen
 let legende = L.control({position: "bottomright"});
 legende.onAdd = function (map) {
   let div = L.DomUtil.create("div", "legende");
-  div.innerHTML += "<span style='color: rgb(0,104,55);'>&#x25CF; </span><span>Veröffentlicht</span>";
-  div.innerHTML += "<br><span style='color: rgb(249,147,28);'>&#x25CF; </span><span>Gremienphase</span>";
-  div.innerHTML += "<br><span style='color: rgb(42,168,226);'>&#x25CF; </span><span>Entwurfsphase</span>";
-  div.innerHTML += "<br><span style='color: rgb(192,192,192);'>&#x25CF; </span><span>Noch keine Policy</span>";
+  div.innerHTML += "<span style='color: rgb(64, 64, 64); font-size: initial'>&#x26AC; </span><span>Hochschule der DH.NRW</span>";
   return div;
 };
-legende.addTo(map);
+
+let oerPolicyLegende = L.control({position: "bottomright"});
+oerPolicyLegende.onAdd = function (map) {
+  let div = L.DomUtil.create("div", "legende");
+  div.innerHTML += "<span style='color: rgb(64, 64, 64); font-size: initial'>&#x26AC; </span><span>Hochschule der DH.NRW</span>";
+  div.innerHTML += "<br><span style='color: rgb(42, 168, 226);'>&#x25CF; </span><span>… mit OER Policy in Entwurfsphase</span>";
+  div.innerHTML += "<br><span style='color: rgb(249, 147, 28);'>&#x25CF; </span><span>… mit OER Policy in Gremienphase</span>";
+  div.innerHTML += "<br><span style='color: rgb(0, 104, 55);'>&#x25CF; </span><span>… mit veröffentlichter OER Policy</span>";
+  return div;
+};
+
+if (oerPolicyDefault) {
+  oerPolicyLegende.addTo(map);
+} else {
+  legende.addTo(map);
+}
 
 // Daten einlesen
 let fetchData = await fetch("./db/standorte.json");
@@ -41,23 +56,18 @@ let standorte = await fetchData.json();
 export var standortObjekt = {};
 for (let standort of standorte) {
   // Phase und marker klären
-  let phase;
   let marker;
   let policyVeroeffentlichung = "";
   if (standort.phase == 0) {
-    phase = hochschulstandort;
     marker = grauerPunkt;
     policyVeroeffentlichung = "Noch keine Policy";
   } else if (standort.phase == 1) {
-    phase = entwurfsphase;
     marker = blauerPunkt;
-    policyVeroeffentlichung = "In Entwicklungsphase";
+    policyVeroeffentlichung = "In Entwurfsphase";
   } else if (standort.phase == 2) {
-    phase = gremienphase;
     marker = orangerPunkt;
     policyVeroeffentlichung = "In Gremienphase";
   } else if (standort.phase == 3) {
-    phase = veroeffentlicht;
     marker = gruenerPunkt;
     policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
   }
@@ -79,18 +89,24 @@ for (let standort of standorte) {
   let blockPersonen = ueberschriftPersonen + listePersonen;
 
   // Block Policy
-  const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
-  const blockPolicy = "<hr><b>OER Policy</b><br>" + policyVeroeffentlichung + link;
+  const link = (standort.policyLink) ? `<a href='${standort.policyLink}' target='_blank'><b>OER-Policy</b></a>` : "<b>OER-Policy</b>";
+  const blockPolicy = (standort.phase > 0) ? "<hr>" + link + "<br>" + policyVeroeffentlichung : "";
 
   // Popup definieren
   let popup = L.popup().setContent(`${blockUeberschrift}${blockPersonen}${blockPolicy}`);
 
   // Alles zusammenführen und zur Karte hinzufügen
-  standortObjekt[standort.id] = L.circle(standort.koordinaten, marker)
-    .addTo(map)
-    .addTo(phase)
+  standortObjekt[standort.id] = L.circle(standort.koordinaten, grauerPunkt)
+    .addTo(hochschulstandort)
     .bindPopup(popup)
     .bindTooltip(standort.name);
+
+  if (standort.phase > 0) {
+    standortObjekt[standort.id] = L.circle(standort.koordinaten, marker)
+      .addTo(oerPolicyStatus)
+      .bindPopup(popup)
+      .bindTooltip(standort.name);
+  }
 }
 
 // Sidebar
@@ -98,3 +114,17 @@ if (!document.getElementById("list")) {
   let sidebar = "<div class='just-list'>" + await createContent(standortObjekt) + "</div>";
   L.control.slideMenu(sidebar).addTo(map);
 }
+
+map.on('overlayadd', function (eventLayer) {
+  if (eventLayer.name === 'OER Policy Status') {
+    this.removeControl(legende);
+    oerPolicyLegende.addTo(this);
+  }
+});
+
+map.on('overlayremove', function (eventLayer) {
+  if (eventLayer.name === 'OER Policy Status') {
+    this.removeControl(oerPolicyLegende);
+    legende.addTo(this);
+  }
+});

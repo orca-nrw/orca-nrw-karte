@@ -59,6 +59,10 @@ code {
   margin: 13px 23px 13px 13px;
 }
 
+path.leaflet-interactive {
+  stroke-width: 1px;
+}
+
 .legende {
   padding: 6px 8px;
   background: white;

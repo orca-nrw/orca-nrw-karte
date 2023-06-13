@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2023-06-13
+### Changed
+- Die vormals grauen Marker sind nun genauso groß wie die anderen Marker und sind weiß mit schwarzem Rand. Eine andere Farbe (schwarz, dunkelgrau oder andersfarbig) ist aus barrierefreiheitsgründen nicht möglich.
+- Die OER Policy taucht in den Standort-Beschreibungen nur noch auf, wenn der Standort zumindest in der Entwurfsphase ist.
+- Die Legende wurde überarbeitet, so dass klar ist, dass alle Standorte Hochschulen der DH.NRW sind und die Farben den OER Policy Status darstellen.
+
+### Fixed
+- TH OWL ist nun richtig geschrieben und der Website-Link wurde korrigiert.
+
+### Removed
+- Die Layer für die einzelnen Standorte können nicht mehr einzeln ein- und ausgeblendet werden.
+
 ## [0.8.2] - 2023-05-17
 ### Changed
 - HS Hamm-Lippstadt Link korrigiert.

@@ -46,9 +46,6 @@
         "abteilung": "Hochschuldidaktik",
         "mail": "mendez@exact.rwth-aachen.de",
         "website": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Kontakt-Anreise/Kontakt/~bdfr/Mitarbeiter-CAMPUS-/?gguid=0x15503F08FBA80F44BE777B9D45C1D7B1"
-      },
-      {
-        "name": "Hochschuldidaktik"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -323,7 +320,10 @@
     "website": "",
     "kontaktpersonen": [
       {
-        "name": "N.N. <br> Bitte wenden Sie sich an netzwerk@orca.nrw"
+        "name": "N.N",
+        "abteilung": "",
+        "mail": "netzwerk@orca.nrw",
+        "website": "https://www.orca.nrw/ueber-uns"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -635,13 +635,13 @@
   },
   {
     "id": "owlTHU",
-    "name": "Technische Hochschule Ostwestphalen-Lippe",
+    "name": "Technische Hochschule Ostwestfalen-Lippe",
     "koordinaten": [
       390,
       430
     ],
     "phase": 0,
-    "website": "https://www.th-owl.de/cm/campus/all/unit.asp?gguid=0x54935681198F9B48BE895C172A9F68EF&tguid=0x7794D157624BAB46B7248BA8BEF7F5BB",
+    "website": "https://www.th-owl.de/",
     "kontaktpersonen": [
       {
         "name": "Nicole Dobosz",
