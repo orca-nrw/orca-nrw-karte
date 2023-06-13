@@ -16,7 +16,7 @@ let params;
 if (location.href.includes("?")) {
   params = location.href.split("?")[1].split("&");
 }
-const oerPolicyDefault = (params?.includes("oer-policy-default=false")) ? false : true;
+const oerPolicyDefault = (params?.includes("oer_policy_default=false")) ? false : true;
 
 
 // Standard-Werte für Layer-Kontrollen und Karte erstellen
