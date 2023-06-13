@@ -49,7 +49,7 @@ export async function createContent(standortObjekt) {
     if (standort.phase == 0) {
       policyVeroeffentlichung = "Noch keine Policy";
     } else if (standort.phase == 1) {
-      policyVeroeffentlichung = "In Entwicklungsphase";
+      policyVeroeffentlichung = "In Entwurfsphase";
     } else if (standort.phase == 2) {
       policyVeroeffentlichung = "In Gremienphase";
     } else if (standort.phase == 3) {
@@ -61,8 +61,8 @@ export async function createContent(standortObjekt) {
       linkPopup = ` | <a id="openPopupLink" href="#" onclick="standortObjekt['${standort.id}'].openPopup(); map.setView([standortObjekt['${standort.id}']._latlng.lat, standortObjekt['${standort.id}']._latlng.lng + centerMod], 0); return false">Auf Karte zeigen</a>`;
     }
 
-    const link = (standort.policyLink) ? `<br><a href='${standort.policyLink}' target='_blank'>Link</a>` : "";
-    const blockPolicy = "<hr><b>OER Policy</b><br>" + policyVeroeffentlichung + link;
+    const link = (standort.policyLink) ? `<a href='${standort.policyLink}' target='_blank'><b>OER-Policy</b></a>` : "<b>OER-Policy</b>";
+    const blockPolicy = (standort.phase > 0) ? "<hr>" + link + "<br>" + policyVeroeffentlichung : "";
 
     data += "<details class='location-list'>" + summary + website + linkPopup + blockPersonen + blockPolicy + "</details>";
   }
