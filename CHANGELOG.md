@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.1] - 2023-08-08
+### Changed
+- Link zur OER-Policy-Äquivalenz der Uni Köln ergänzt.
+- Das Veröffentluchungsdatum wird nur angezeigt, wenn auch eins vorliegt.
+
 ## [0.9.0] - 2023-06-13
 ### Changed
 - Die vormals grauen Marker sind nun genauso groß wie die anderen Marker und sind weiß mit schwarzem Rand. Eine andere Farbe (schwarz, dunkelgrau oder andersfarbig) ist aus barrierefreiheitsgründen nicht möglich.

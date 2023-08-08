@@ -534,7 +534,7 @@
       150,
       173
     ],
-    "phase": 0,
+    "phase": 3,
     "website": "https://portal.uni-koeln.de/digital-education/offene-bildungsmaterialien",
     "kontaktpersonen": [
       {
@@ -545,7 +545,7 @@
       }
     ],
     "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "policyLink": "https://oscc.uni-koeln.de/home"
   },
   {
     "id": "muensterFH",

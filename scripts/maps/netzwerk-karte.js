@@ -69,7 +69,9 @@ for (let standort of standorte) {
     policyVeroeffentlichung = "In Gremienphase";
   } else if (standort.phase == 3) {
     marker = gruenerPunkt;
-    policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
+    if (standort.policyVeroeffentlichung) {
+      policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
+    }
   }
 
   // Block Überschrift

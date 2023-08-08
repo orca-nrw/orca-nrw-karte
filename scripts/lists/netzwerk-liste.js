@@ -53,7 +53,9 @@ export async function createContent(standortObjekt) {
     } else if (standort.phase == 2) {
       policyVeroeffentlichung = "In Gremienphase";
     } else if (standort.phase == 3) {
-      policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
+      if (standort.policyVeroeffentlichung) {
+        policyVeroeffentlichung = `Veröffentlicht am ${standort.policyVeroeffentlichung}`;
+      }
     }
 
     let linkPopup = "";
