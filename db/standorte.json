@@ -558,10 +558,10 @@
     "website": "https://www.fh-muenster.de/wandelwerk/index.php",
     "kontaktpersonen": [
       {
-        "name": "Svenja Gödecke",
+        "name": "Jonas Lilienthal",
         "abteilung": "",
-        "mail": "svenja.goedecke@fh-muenster.de",
-        "website": "https://www.fh-muenster.de/wandelwerk/ansprechpartner.php?pId=13397&orga=54&m_list_id=2&p_list_id=7"
+        "mail": "jonas.lilienthal@fh-muenster.de",
+        "website": "https://www.fh-muenster.de/wandelwerk/team.php?pId=9618&orga=54&m_list_id=2&p_list_id=6"
       }
     ],
     "policyVeroeffentlichung": "",
@@ -695,14 +695,21 @@
   },
   {
     "id": "ruhrWestHS",
-    "name": "Hochschule Ruhr-West",
+    "name": "Hochschule Ruhr West",
     "koordinaten": [
       258,
       151
     ],
     "phase": 0,
     "website": "https://www.hochschule-ruhr-west.de/",
-    "kontaktpersonen": [],
+    "kontaktpersonen": [
+      {
+        "name": "Stefanie Legler",
+        "abteilung": "Netzwerkstelle ORCA.nrw",
+        "mail": "stefanie.legler@hs-ruhrwest",
+        "website": "https://www.hochschule-ruhr-west.de/die-hrw/lehre-an-der-hrw/e-learning/"
+      }
+    ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
   },
