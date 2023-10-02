@@ -1,6 +1,6 @@
 # orca-nrw-karte
 
-Version: 0.9.2. Stand: 2023-08-22.
+Version: 0.9.3. Stand: 2023-10-02.
 
 Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
