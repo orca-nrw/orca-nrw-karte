@@ -2,7 +2,7 @@
 
 Version: 0.9.4. Stand: 2023-10-09.
 
-Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
+Dies ist eine sehr tolle Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
 ## Einbindung in eigene Websites
 
