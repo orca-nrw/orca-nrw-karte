@@ -4,15 +4,19 @@ Version: 0.9.6. Stand: 2024-02-13.
 
 Dies ist eine Karte, die alle Netzwerkstellen und OER-Policies der teilnehmenden Hochschulen in NRW darstellt.
 
+[Demo-Website](https://mrkwnzl.github.io/orca-nrw-karte)
+
 ## Einbindung in eigene Websites
 
- Die Karte kann mittels diesem Einbettungscode eingebettet werden:
+Die Karte kann mittels diesem Einbettungscode eingebettet werden:
 
- ```html
- <iframe src="https://mrkwnzl.github.io/orca-nrw-karte/karte.html" height="550" width="100%"></iframe>
- ```
+```html
+<iframe src="https://mrkwnzl.github.io/orca-nrw-karte/karte.html" height="550" width="100%"></iframe>
+```
 
- ## Standort-Datenbank
+Der Query Sring `oer_policy_default` kann auf `true` oder `false` gesetzt werden, um den Policy-Status standardmäßig zu aktivieren (Standardwert) bzw. deaktivieren.
+
+## Standort-Datenbank
 
 Die Standort-Datenbank findet sich unter `db/standorte.json`. Es handelt sich um ein Array mit einem JSON Object für jeden Standort. So ist die Datei aufgebaut:
 
