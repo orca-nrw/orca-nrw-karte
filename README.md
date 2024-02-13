@@ -14,7 +14,7 @@ Die Karte kann mittels diesem Einbettungscode eingebettet werden:
 <iframe src="https://mrkwnzl.github.io/orca-nrw-karte/karte.html" height="550" width="100%"></iframe>
 ```
 
-Der Query Sring `oer_policy_default` kann auf `true` oder `false` gesetzt werden, um den Policy-Status standardmäßig zu aktivieren (Standardwert) bzw. deaktivieren.
+Der Query String `oer_policy_default` kann auf `true` oder `false` gesetzt werden, um den Policy-Status standardmäßig zu aktivieren (Standardwert) bzw. deaktivieren.
 
 ## Standort-Datenbank
 
