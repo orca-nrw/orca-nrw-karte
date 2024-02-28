@@ -658,7 +658,10 @@
     "website": "https://www.uni-paderborn.de/lehre/lehrforschungsverbuende/dh-nrw-projekte/landesportal",
     "kontaktpersonen": [
       {
-        
+        "name": "N.N",
+        "abteilung": "",
+        "mail": "",
+        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
