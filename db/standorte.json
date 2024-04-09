@@ -128,14 +128,14 @@
     "website": "https://www.hs-gesundheit.de/",
     "kontaktpersonen": [
       {
-        "name": "Christian Funk",
-        "abteilung": "",
-        "mail": "",
+        "name": "Katrin Parino",
+        "abteilung": "Referentin für das Netzwerk Landesportal ORCA.nrw",
+        "mail": "katrin.parino@hs-gesundheit.de",
         "website": "https://www.hs-gesundheit.de/praesidium/qualitaet-in-studium-und-lehre/orca-an-der-hs-gesundheit"
       }
     ],
-    "policyVeroeffentlichung": "28.06.2022",
-    "policyLink": "https://www.hs-gesundheit.de/fileadmin/user_upload/hochschule/Praesidium/Stabsstellen/Qualitaet_Studium_Lehre/OER-Policy-HSGesundheit.pdf"
+    "policyVeroeffentlichung": "",
+    "policyLink": ""
   },
   {
     "id": "bochumRuhrUni",
