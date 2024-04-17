@@ -58,7 +58,7 @@
       400,
       385
     ],
-    "phase": 1,
+    "phase": 2,
     "website": "https://uni-bielefeld.de",
     "kontaktpersonen": [
       {
@@ -67,12 +67,6 @@
         "mail": "frank.homp@uni-bielefeld.de",
         "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
       },
-      {
-        "name": "Marko Wenzel",
-        "abteilung": "Hochschuldidaktik",
-        "mail": "marko.wenzel@uni-bielefeld.de",
-        "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=224629726"
-      }
     ],
     "policyVeroeffentlichung": "",
     "policyLink": ""
