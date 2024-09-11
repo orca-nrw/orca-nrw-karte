@@ -98,7 +98,7 @@
       263,
       194
     ],
-    "phase": 1,
+    "phase": 3,
     "website": "https://www.hochschule-bochum.de/",
     "kontaktpersonen": [
       {
@@ -108,8 +108,8 @@
         "website": "https://www.hochschule-bochum.de/digiteach/oer-material/"
       }
     ],
-    "policyVeroeffentlichung": "",
-    "policyLink": ""
+    "policyVeroeffentlichung": "06.11.2023",
+    "policyLink": "https://www.hochschule-bochum.de/fileadmin/public/Die-BO_Hochschule/verwaltung/AmtlBekanntmachungen/2023/AB_1197.pdf"
   },
   {
     "id": "bochumHSGesundheit",
