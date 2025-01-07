@@ -36,7 +36,7 @@ export async function createContent(standortObjekt) {
     let listePersonen = "";
     let ueberschriftPersonen = "";
     if (standort.kontaktpersonen.length >= 1) {
-      ueberschriftPersonen = (standort.kontaktpersonen.length > 1) ? "<hr>Netzwerkstelle ORCA.nrw<b></b>" : " ";
+      ueberschriftPersonen = (standort.kontaktpersonen.length > 1) ? "<hr>Netzwerkstelle ORCA.nrw<b></b>" : "<hr> <b></b>";
       for (let person of standort.kontaktpersonen) {
         let name = (person.website) ? `<br><a href='${person.website}' target='_blank'>${person.name}</a>` : `<br>${person.name}`;
         let mail = (person.mail) ? ` <a href='mailto:${person.mail}'><i class="far fa-envelope"></i></a>` : "";
