@@ -34,12 +34,6 @@
         "abteilung": "",
         "mail": "",
         "website": ""
-      },
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
@@ -59,7 +53,7 @@
         "name": "",
         "abteilung": "",
         "mail": "",
-        "website": "h"
+        "website": ""
       }
     ],
     "policyVeroeffentlichung": "28.10.2024",
@@ -302,10 +296,10 @@
     "website": "",
     "kontaktpersonen": [
       {
-        "name": "N.N",
+        "name": "",
         "abteilung": "",
-        "mail": "info@orca.nrw",
-        "website": "https://www.orca.nrw/ueber-uns"
+        "mail": "",
+        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
@@ -322,10 +316,10 @@
     "website": "https://www.rsh-duesseldorf.de/",
     "kontaktpersonen": [
       {
-        "name": "Hochschul- und Lehrentwicklung",
+        "name": "",
         "abteilung": "",
         "mail": "",
-        "website": "https://www.rsh-duesseldorf.de/musikhochschule/wir-ueber-uns/hochschul-und-lehrentwicklung/team"
+        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
@@ -346,12 +340,6 @@
         "abteilung": "",
         "mail": "",
         "website": ""
-      },
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
       }
     ],
     "policyVeroeffentlichung": "26.01.2022",
@@ -367,12 +355,6 @@
     "phase": 0,
     "website": "https://www.folkwang-uni.de/home/hochschule/organisation/verwaltung-technik/dezernat-studium-und-internationales/hochschul-und-mediendidaktik/",
     "kontaktpersonen": [
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
-      },
       {
         "name": "",
         "abteilung": "",
@@ -478,12 +460,6 @@
         "abteilung": "",
         "mail": "",
         "website": ""
-      },
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
       }
     ],
     "policyVeroeffentlichung": "10.2022",
@@ -544,12 +520,6 @@
         "abteilung": "",
         "mail": "",
         "website": ""
-      },
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
       }
     ],
     "policyVeroeffentlichung": "",
@@ -585,12 +555,6 @@
     "phase": 0,
     "website": "https://www.uni-muenster.de/ZHL/",
     "kontaktpersonen": [
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
-      },
       {
         "name": "",
         "abteilung": "",
@@ -711,12 +675,6 @@
     "phase": 3,
     "website": "https://www.uni-siegen.de/start/news/oeffentlichkeit/1026643.html",
     "kontaktpersonen": [
-      {
-        "name": "",
-        "abteilung": "",
-        "mail": "",
-        "website": ""
-      },
       {
         "name": "",
         "abteilung": "",
